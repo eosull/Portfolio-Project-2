@@ -47,6 +47,22 @@ section > div{
     line-height: 10px;
 }
 
+/* Styling for goalscorers table */
+
+#goalscorers{
+    display: flex;
+}
+
+table{
+    margin: auto;
+    width: 75%;
+}
+
+table, th{
+    border: 1px solid;
+    border-collapse:collapse;
+}
+
 footer{
     background-color: rgb(114, 114, 184);
     width:100%;
