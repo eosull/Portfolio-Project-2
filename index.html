@@ -33,6 +33,7 @@
                 <p>Team Name</p>
                 <h3>Most Tackles:</h3>
                 <p>Player Name</p>
+                <p>More info on <a href="#defence">defence</a></p>
             </div>
         </div>
         <div>
@@ -127,7 +128,23 @@
     </section>
 
     <section>
-        <div>Section 3A</div>
+        <div id="calculate-apg">
+          <h3>Calculate Assists Per Game:</h3>
+          <form action="submit">
+            <label for="player-choice1">Pick A Player:</label>
+            <input list="player-choice1">
+            <datalist id="player-choice1">
+              <option value="Ivan Perisic"></option>
+              <option value="Lionel Messi"></option>
+              <option value="Harry Kane"></option>
+              <option value="Antoine Griezmann"></option>
+              <option value="Bruno Fernandes"></option>
+              <option value="Davy Klaasen"></option>
+            </datalist>
+            <input type="submit">
+          </form>
+        </div>
+
         <div id = "assists">
             <table>
                 <tr>
@@ -177,8 +194,53 @@
     </section>
 
     <section>
-        <div>Section 4A</div>
-        <div>Section 4B</div>
+        <div id="defence">
+          <table>
+            <tr>
+              <th>Player</th>
+              <th>Country</th>
+              <th>Games</th>
+              <th>Clean Sheets</th>
+            </tr>
+            <tr>
+              <td>Emi Martinez</td>
+              <td>Argentina</td>
+              <td>7</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Dominik Livakovic</td>
+              <td>Croatia</td>
+              <td>7</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Yassine Bounou</td>
+              <td>Morocco</td>
+              <td>6</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Hugo Lloris</td>
+              <td>France</td>
+              <td>6</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>Jordan Pickford</td>
+              <td>England</td>
+              <td>5</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Andries Noppert</td>
+              <td>Netherlands</td>
+              <td>5</td>
+              <td>2</td>
+            </tr>
+          </table>
+        </div>
+        <div>Clean Sheet %</div>
     </section>
 
     <footer>
