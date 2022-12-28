@@ -108,22 +108,22 @@
                   <td class="goal-amount">3</td>
                 </tr>
               </table>
-              <button onclick="calculateGoalsPerGame()">Calculate</button>
         </div>
+        
         <div id = "calculate-gpg">
           <h3>Calculate Goals Per Game:</h3>
-          <form>
+          <form onsubmit="calculateGoalsPerGame()">
             <label for="player-choice">Pick A Player:</label>
-            <input list="player-choice">
+            <input type="text" id="choose-player" list="player-choice">
             <datalist id="player-choice">
-              <option value="Kylian Mbappe"></option>
-              <option value="Lionel Messi"></option>
-              <option value="Julian Alvarez"></option>
-              <option value="Olivier Giroud"></option>
-              <option value="Antoine Griezmann"></option>
-              <option value="Cody Gakpo"></option>
+              <option value="Kylian Mbappe">Kylian Mbappe</option>
+              <option value="Lionel Messi">Lionel Messi</option>
+              <option value="Julian Alvarez">Julian Alvarez</option>
+              <option value="Olivier Giroud">Olivier Giroud</option>
+              <option value="Antoine Griezmann">Antoine Griezmann</option>
+              <option value="Cody Gakpo">Cody Gakpo</option>
             </datalist>
-            <input type="submit">
+            <input id="player-selected" type="submit">
           </form>
         </div>
     </section>
