@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body{
     background-color: rgb(82, 80, 80);
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
