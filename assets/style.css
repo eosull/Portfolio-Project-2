@@ -48,8 +48,12 @@ section > div{
 }
 
 /* Styling for goalscorers table */
-
 #goalscorers{
+    display: flex;
+}
+
+/* Styling for assists table */
+#assists{
     display: flex;
 }
 
