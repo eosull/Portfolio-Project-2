@@ -40,6 +40,10 @@ section > div{
     text-align: center;
 }
 
+#individual-awards{
+    width: 90%;
+}
+
 .list-box{
     margin: auto;
     margin-top: 5%;
