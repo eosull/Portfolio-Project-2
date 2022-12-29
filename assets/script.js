@@ -1,11 +1,15 @@
 
-function calculateGoalsPerGame(){
-    let player = document.getElementsByClassName('goal-player');
-    let games = document.getElementsByClassName('goal-games');
-    let goals = document.getElementsByClassName('goal-amount');
+function calculateGoalsPerGame(playerNum){
+    let playerList = document.getElementsByClassName('goal-player');
+    let player = playerList[playerNum].innerHTML;
+    let gameList = document.getElementsByClassName('goal-games');
+    let game = gameList[playerNum].innerHTML;
+    let goalList = document.getElementsByClassName('goal-amount');
+    let goal = goalList[playerNum].innerHTML;
+
+    let gpg = goal/game;
 
 
-    console.log(player[1].innerHTML);
-    console.log(games[1].innerHTML);
-    console.log(goals[1].innerHTML);
+
+    console.log(`${player} Scored ${gpg} Goals Per Game`);
 }
