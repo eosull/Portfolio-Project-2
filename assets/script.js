@@ -1,3 +1,10 @@
+let card = document.getElementById('gb');
+card.addEventListener("click", flipCard);
+
+function flipCard(){
+    card.classList.toggle("flipCard");
+}
+
 
 function calculateGoalsPerGame(playerNum){
     let playerList = document.getElementsByClassName('goal-player');

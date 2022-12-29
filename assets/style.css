@@ -54,15 +54,27 @@ section > div{
     justify-content: center;
     flex-direction: column;
 }
-.award-grid > div > div {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
 
 .award-box{
     margin: 20px;
     background-color: rgba(0, 0, 0, 0.275);
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+
+.front{
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back{
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.flipCard{
+    transform: rotateY(180deg);
 }
 
 .list-box{
