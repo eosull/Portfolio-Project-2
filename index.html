@@ -118,7 +118,6 @@
           <button onclick="calculateGoalsPerGame(3)">Olivier Giroud</button>
           <button onclick="calculateGoalsPerGame(4)">Alvaro Morata</button>
           <button onclick="calculateGoalsPerGame(5)">Cody Gakpo</button>
-
           <p id="gpg-statement"></p>
         </div>
     </section>
@@ -126,19 +125,13 @@
     <section>
         <div id="calculate-apg">
           <h3>Calculate Assists Per Game:</h3>
-          <form>
-            <label for="player-choice1">Pick A Player:</label>
-            <input list="player-choice1">
-            <datalist id="player-choice1">
-              <option value="Ivan Perisic"></option>
-              <option value="Lionel Messi"></option>
-              <option value="Harry Kane"></option>
-              <option value="Antoine Griezmann"></option>
-              <option value="Bruno Fernandes"></option>
-              <option value="Davy Klaasen"></option>
-            </datalist>
-            <input type="submit">
-          </form>
+          <button onclick="calculateAssistsPerGame(0)">Ivan Perisic</button>
+          <button onclick="calculateAssistsPerGame(1)">Lionel Messi</button>
+          <button onclick="calculateAssistsPerGame(2)">Harry Kane</button>
+          <button onclick="calculateAssistsPerGame(3)">Antoine Griezmann</button>
+          <button onclick="calculateAssistsPerGame(4)">Bruno Fernandes</button>
+          <button onclick="calculateAssistsPerGame(5)">Davy Klaasen</button>
+          <p id="apg-statement"></p>
         </div>
 
         <div id = "assists">
@@ -150,40 +143,40 @@
                   <th>Assists</th>
                 </tr>
                 <tr>
-                  <td>Ivan Perisic</td>
+                  <td class="assist-player">Ivan Perisic</td>
                   <td>Croatia</td>
-                  <td>7</td>
-                  <td>3</td>
+                  <td class="assist-games">7</td>
+                  <td class="assist-amount">3</td>
                 </tr>
                 <tr>
-                  <td>Lionel Messi</td>
+                  <td class="assist-player">Lionel Messi</td>
                   <td>Argentina</td>
-                  <td>7</td>
-                  <td>3</td>
+                  <td class="assist-games">7</td>
+                  <td class="assist-amount">3</td>
                 </tr>
                 <tr>
-                  <td>Harry Kane</td>
+                  <td class="assist-player">Harry Kane</td>
                   <td>England</td>
-                  <td>5</td>
-                  <td>3</td>
+                  <td class="assist-games">5</td>
+                  <td class="assist-amount">3</td>
                 </tr>
                 <tr>
-                  <td>Antoine Griezmann</td>
+                  <td class="assist-player">Antoine Griezmann</td>
                   <td>France</td>
-                  <td>7</td>
-                  <td>3</td>
+                  <td class="assist-games">7</td>
+                  <td class="assist-amount">3</td>
                 </tr>
                 <tr>
-                  <td>Bruno Fernandes</td>
+                  <td class="assist-player">Bruno Fernandes</td>
                   <td>Portugal</td>
-                  <td>4</td>
-                  <td>3</td>
+                  <td class="assist-games">4</td>
+                  <td class="assist-amount">3</td>
                 </tr>
                 <tr>
-                  <td>Davy Klaasen</td>
+                  <td class="assist-player">Davy Klaasen</td>
                   <td>Netherlands</td>
-                  <td>4</td>
-                  <td>2</td>
+                  <td class="assist-games">4</td>
+                  <td class="assist-amount">2</td>
                 </tr>
               </table>
         </div>
