@@ -192,58 +192,52 @@
               <th>Clean Sheets</th>
             </tr>
             <tr>
-              <td>Emi Martinez</td>
+              <td class="cs-player">Emi Martinez</td>
               <td>Argentina</td>
-              <td>7</td>
-              <td>3</td>
+              <td class="cs-game">7</td>
+              <td class="cs-amount">3</td>
             </tr>
             <tr>
-              <td>Dominik Livakovic</td>
+              <td class="cs-player">Dominik Livakovic</td>
               <td>Croatia</td>
-              <td>7</td>
-              <td>2</td>
+              <td class="cs-game">7</td>
+              <td class="cs-amount">2</td>
             </tr>
             <tr>
-              <td>Yassine Bounou</td>
+              <td class="cs-player">Yassine Bounou</td>
               <td>Morocco</td>
-              <td>6</td>
-              <td>3</td>
+              <td class="cs-game">6</td>
+              <td class="cs-amount">3</td>
             </tr>
             <tr>
-              <td>Hugo Lloris</td>
+              <td class="cs-player">Hugo Lloris</td>
               <td>France</td>
-              <td>6</td>
-              <td>1</td>
+              <td class="cs-game">6</td>
+              <td class="cs-amount">1</td>
             </tr>
             <tr>
-              <td>Jordan Pickford</td>
+              <td class="cs-player">Jordan Pickford</td>
               <td>England</td>
-              <td>5</td>
-              <td>3</td>
+              <td class="cs-game">5</td>
+              <td class="cs-amount">3</td>
             </tr>
             <tr>
-              <td>Andries Noppert</td>
+              <td class="cs-player">Andries Noppert</td>
               <td>Netherlands</td>
-              <td>5</td>
-              <td>2</td>
+              <td class="cs-game">5</td>
+              <td class="cs-amount">2</td>
             </tr>
           </table>
         </div>
         <div>
           <h3>Calculate Clean Sheet Percentage:</h3>
-          <form>
-            <label for="player-choice2">Pick A Player:</label>
-            <input list="player-choice2">
-            <datalist id="player-choice2">
-              <option value="Emi Martinez"></option>
-              <option value="Dominik Livakovic"></option>
-              <option value="Yassine Bounou"></option>
-              <option value="Hugo Lloris"></option>
-              <option value="Jordan Pickford"></option>
-              <option value="ndries Noppert"></option>
-            </datalist>
-            <input type="submit">
-          </form>
+          <button onclick="calculateCSP(0)">Emi Martinez</button>
+          <button onclick="calculateCSP(1)">Dominik Livakovic</button>
+          <button onclick="calculateCSP(2)">Yassine Bounou</button>
+          <button onclick="calculateCSP(3)">Hugo Lloris</button>
+          <button onclick="calculateCSP(4)">Jordan Pickford</button>
+          <button onclick="calculateCSP(5)">Andries Noppert</button>
+          <p id="csp-statement"></p>
         </div>
     </section>
 

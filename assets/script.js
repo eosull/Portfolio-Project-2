@@ -24,3 +24,16 @@ function calculateAssistsPerGame(playerNum){
 
     document.getElementById('apg-statement').innerHTML = (`${player} Provided ${apg} Assists Per Game`);
 }
+
+function calculateCSP(playerNum){
+    let playerList = document.getElementsByClassName('cs-player');
+    let player = playerList[playerNum].innerHTML;
+    let gameList = document.getElementsByClassName('cs-game');
+    let game = gameList[playerNum].innerHTML;
+    let csList = document.getElementsByClassName('cs-amount');
+    let cs = csList[playerNum].innerHTML;
+
+    let csp = parseFloat((cs/game) * 100).toFixed(2);
+
+    document.getElementById('csp-statement').innerHTML = (`${player} Kept a clean sheet in ${csp}% of games`);
+}
