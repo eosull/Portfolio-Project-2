@@ -11,6 +11,15 @@ body{
     margin: 0;
 }
 
+#home-logo{
+    position: fixed;
+    top: 40px;
+    left: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: xx-large;
+    text-decoration: none;
+}
+
 header{
     background-color: rgb(114, 114, 184);
     width:100%;
