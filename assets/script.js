@@ -1,8 +1,8 @@
-let card = document.getElementById('gb');
+let card = document.getElementById('card');
 card.addEventListener("click", flipCard);
 
 function flipCard(){
-    card.classList.toggle("flipCard");
+    card.classList.toggle("flipAward");
 }
 
 
