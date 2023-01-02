@@ -60,41 +60,6 @@ section > div{
     text-align: center;
 }
 
-.award-grid {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.award-grid > div {
-    display: flex; 
-    flex-basis: calc(50% - 40px);  
-    justify-content: center;
-    flex-direction: column;
-}
-
-.award-box{
-    margin: 20px;
-    background-color: rgba(0, 0, 0, 0.275);
-    transform-style: preserve-3d;
-    transition: all 0.8s ease;
-}
-
-.front{
-    position: absolute;
-    backface-visibility: hidden;
-}
-
-.back{
-    position: absolute;
-    backface-visibility: hidden;
-    transform: rotateY(180deg);
-}
-
-.flipCard{
-    transform: rotateY(180deg);
-}
-
 .list-box{
     margin: auto;
     margin-top: 5%;
