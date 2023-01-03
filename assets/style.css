@@ -32,13 +32,11 @@ a:visited{
 }
 
 header{
-    /* background-color: rgb(114, 114, 184); */
     width:100%;
     height: 200px;
 }
 
 header > h1{
-    margin-top: 0;
     text-align: center;
 }
 
@@ -60,17 +58,22 @@ header > h1{
     width: 45%;
     height: 90vh;
     border-radius: 10px;
-    text-align: center;
+}
+
+.highlight-box{
+    display: flex;
+    flex-direction: column;
 }
 
 .list-box{
+    background-color: #65524da6;
     margin: auto;
     margin-top: 5%;
     padding: 10px;
-    height: 40%;
     width: 60%;
     text-align: center;
     line-height: 10px;
+    border-radius: 50px;
 }
 
 /* Styling for goalscorers table */
@@ -89,12 +92,15 @@ header > h1{
 
 table{
     margin: auto;
+    background-color: #65524da6;
     width: 75%;
 }
 
 table, th{
     border: 1px solid;
+    border-color: #C4DACF;
     border-collapse:collapse;
+    padding: 20px;
 }
 
 footer{
