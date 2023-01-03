@@ -1,11 +1,3 @@
-let card = document.getElementById('card');
-card.addEventListener("click", flipAward);
-
-function flipAward(){
-    card.classList.toggle("flipAward");
-}
-
-
 function calculateGoalsPerGame(playerNum){
     let playerList = document.getElementsByClassName('goal-player');
     let player = playerList[playerNum].innerHTML;
@@ -15,7 +7,7 @@ function calculateGoalsPerGame(playerNum){
     let goal = goalList[playerNum].innerHTML;
 
     let gpg = parseFloat(goal/game).toFixed(2);
-
+    
     document.getElementById('gpg-statement').innerHTML = (`${player} Scored ${gpg} Goals Per Game`);
 }
 
@@ -43,4 +35,8 @@ function calculateCSP(playerNum){
     let csp = parseFloat((cs/game) * 100).toFixed(2);
 
     document.getElementById('csp-statement').innerHTML = (`${player} Kept a clean sheet in ${csp}% of games`);
+}
+
+function flipAward(){
+    card.classList.toggle("flipAward");
 }
