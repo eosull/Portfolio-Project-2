@@ -6,7 +6,8 @@ html{
 }
 
 body{
-    background-color: rgb(82, 80, 80);
+    background-color: #42526e;
+    color: white;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -31,7 +32,7 @@ a:visited{
 }
 
 header{
-    background-color: rgb(114, 114, 184);
+    /* background-color: rgb(114, 114, 184); */
     width:100%;
     height: 200px;
 }
@@ -42,7 +43,7 @@ header > h1{
 }
 
 .stats{
-    background-color: rgb(82, 80, 80);
+    background-color: transparent;
     clear:both;
     min-height: 100vh;
     margin-top: 20px;
@@ -55,7 +56,7 @@ header > h1{
 }
 
 .stats > div{
-    background-color: pink;
+    background-color: #E08D79;
     width: 45%;
     height: 90vh;
     border-radius: 10px;
@@ -97,14 +98,14 @@ table, th{
 }
 
 footer{
-    background-color: rgb(114, 114, 184);
+    background-color: transparent;
     width:100%;
     height: 100px;
 }
 
 /* Flip card styling */
 .award{
-    background-color: rgb(82, 80, 80);
+    background-color: transparent;
     clear:both;
     display: flex;
     justify-content: center;
@@ -137,7 +138,7 @@ footer{
 }
 
 .award-front{
-    background-color: pink;
+    background-color: #E08D79;
     width: 100%;
     height:100%;
     position: absolute;
