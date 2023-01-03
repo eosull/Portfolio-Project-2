@@ -114,6 +114,13 @@ section{
     justify-content: center;
 }
 
+.table-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* Styling for goalscorers table */
 #goalscorers{
     display: flex;
