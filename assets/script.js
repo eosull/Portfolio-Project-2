@@ -7,8 +7,7 @@ function calculateGoalsPerGame(playerNum){
     let goal = goalList[playerNum].innerHTML;
 
     let gpg = parseFloat(goal/game).toFixed(2);
-    
-    document.getElementById('gpg-statement').innerHTML = (`${player} Scored ${gpg} Goals Per Game`);
+    document.getElementById('gpg-statement').innerHTML = (`${player} Scored ${gpg} Goals Per Game`);  
 }
 
 function calculateAssistsPerGame(playerNum){
