@@ -164,6 +164,18 @@ footer{
     position: absolute;
     backface-visibility: hidden;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.award-front > h3{
+    font-size: xx-large;
+}
+
+.award-front > p{
+    font-size: x-large;
 }
 
 .award-back{
