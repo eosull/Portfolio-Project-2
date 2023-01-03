@@ -1,7 +1,7 @@
 let card = document.getElementById('card');
-card.addEventListener("click", flipCard);
+card.addEventListener("click", flipAward);
 
-function flipCard(){
+function flipAward(){
     card.classList.toggle("flipAward");
 }
 

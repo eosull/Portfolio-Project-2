@@ -39,7 +39,7 @@ header > h1{
     text-align: center;
 }
 
-section{
+.stats{
     background-color: rgb(82, 80, 80);
     clear:both;
     min-height: 100vh;
@@ -52,7 +52,7 @@ section{
     gap: 40px;
 }
 
-section > div{
+.stats > div{
     background-color: pink;
     width: 45%;
     height: 90vh;
@@ -101,11 +101,31 @@ footer{
 }
 
 /* Flip card styling */
+.award{
+    background-color: rgb(82, 80, 80);
+    clear:both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    gap: 40px;
+}
 
 .award-container{
     position:absolute;
     width:90%;
-    perspective: 1000px;
+    height: 90vh;
+    /* background-color: pink; */
+    border-radius: 10px;
+    text-align: center;
+    perspective: 10000px;
+}
+
+.award-card:hover .award-card{
+    transform: rotateY(180deg);
 }
 
 .award-card{
@@ -117,13 +137,21 @@ footer{
 }
 
 .award-front{
+    background-color: pink;
+    width: 100%;
+    height:100%;
     position: absolute;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     text-align: center;
 }
 
 .award-back{
+    background-color:aqua;
+    width: 100%;
+    height: 100%;
     position: absolute;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     text-align: center;
     transform: rotateY(180deg);
