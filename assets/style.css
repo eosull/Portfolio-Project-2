@@ -101,17 +101,22 @@ section{
     background-color: #1f2734;
 }
 
-.calculate{
+.calculate, .table-section{
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.button-bank{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.button-bank > button{
+    padding: 20px;
+    margin: 15px;
+    width: 40%;
+
+    background-color: #65524da6;
+    color: white;
+    border: none;
+    text-decoration: solid;
 }
 
 .table-section{
@@ -119,16 +124,7 @@ section{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-/* Styling for goalscorers table */
-#goalscorers{
-    display: flex;
-}
-
-/* Styling for assists table */
-#assists{
-    display: flex;
+    align-content: center;
 }
 
 #defence{
@@ -136,9 +132,10 @@ section{
 }
 
 table{
-    margin: auto;
     background-color: #65524da6;
     width: 75%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table, th{
