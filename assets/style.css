@@ -76,6 +76,19 @@ header > h1{
     border-radius: 50px;
 }
 
+.calculate{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-bank{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 /* Styling for goalscorers table */
 #goalscorers{
     display: flex;
