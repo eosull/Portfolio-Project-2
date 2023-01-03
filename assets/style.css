@@ -119,6 +119,14 @@ button{
     text-decoration: solid;
 }
 
+.return-statement{
+    margin: auto;
+    border-radius: 10px;
+    width: 40%;
+    background-color: #1f2734;
+    font-size: x-large;
+}
+
 .table-section{
     text-align: center;
     display: flex;
