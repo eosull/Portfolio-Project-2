@@ -282,6 +282,10 @@ footer{
     .award-back li{
         padding: 10px;
     }
+
+    table{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -293,6 +297,14 @@ footer{
 
     .stats div {
         width: 90%;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    table, th{
+        padding: 0;
     }
 
     .award-container{
