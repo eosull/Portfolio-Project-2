@@ -98,7 +98,7 @@ section{
     padding: 7px;
     border-radius: 10px;
     width: 40%;
-    background-color: #1f2734;
+    background-color: #1f2734c3;
 }
 
 .calculate, .table-section{
@@ -152,6 +152,10 @@ table, th{
     border-collapse:collapse;
     text-align: center;
     padding: 20px;
+}
+
+tr:nth-child(even){
+    background-color: #1f2734c3;
 }
 
 footer{
@@ -254,10 +258,8 @@ footer{
 
 #award-winner-info{
     width: 75%;
-    height: 100%;
     order: 1;
-    display:flex;
-    flex-direction: column;
+    
 }
 
 #award-winner-info button{
