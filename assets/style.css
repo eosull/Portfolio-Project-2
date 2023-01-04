@@ -56,7 +56,7 @@ section{
 .stats{
     background-color: transparent;
     clear:both;
-    min-height: 100vh;
+    min-height: 80vh;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -69,7 +69,8 @@ section{
 .stats > div{
     background-color: #E08D79;
     width: 45%;
-    height: 75vh;
+    height: auto;
+    padding: 50px;
     border-radius: 10px;
 }
 
@@ -101,13 +102,6 @@ section{
     background-color: #1f2734c3;
 }
 
-.calculate, .table-section{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 button{
     padding: 20px;
     margin: 15px;
@@ -127,7 +121,7 @@ button{
     font-size: x-large;
 }
 
-.table-section{
+.calculate, .table-section{
     text-align: center;
     display: flex;
     flex-direction: column;
