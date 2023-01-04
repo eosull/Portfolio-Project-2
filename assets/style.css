@@ -128,8 +128,8 @@ button{
 table{
     background-color: #65524da6;
     width: 75%;
-    /* margin-left: auto;
-    margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table, th{
