@@ -8,7 +8,7 @@ html{
 body{
     background-color: #42526e;
     color: white;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -88,15 +88,14 @@ section{
     padding: 10px;
     width: 60%;
     text-align: center;
-    line-height: 10px;
-    border-radius: 50px;
+    line-height: 20px;
+    border: solid 1px #C4DACF;
 }
 
 .list-box > p{
     margin: auto;
     padding: 7px;
-    border-radius: 10px;
-    width: 40%;
+    width:auto;
     background-color: #1f2734c3;
 }
 
@@ -114,7 +113,7 @@ button{
 .return-statement{
     margin: auto;
     border-radius: 10px;
-    width: 40%;
+    width: 80%;
     background-color: #1f2734;
     font-size: x-large;
 }
@@ -265,6 +264,29 @@ footer{
 
 /* Mobile Responsiveness */
 
-/* @media screen and (max-width:) and (min-width: 400px){
+@media screen and (max-width:1600px) and (min-width: 1000px){
+    .list-box{
+        background-color: #65524da6;
+        margin: auto;
+        padding: 5px;
+        width: 90%;
+        text-align: center;
+        line-height: 8px;
+    }
+}
 
-} */
+@media screen and (max-width:1000px){
+    .stats{
+        flex-direction: column;
+        border-top: 100px;
+        border-bottom: 100px;
+    }
+
+    .stats div {
+        width: 90%;
+    }
+
+    .award-container{
+        height: 70vh;
+    }
+}
