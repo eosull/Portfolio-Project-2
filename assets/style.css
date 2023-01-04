@@ -273,6 +273,15 @@ footer{
         text-align: center;
         line-height: 8px;
     }
+
+    #award-image-container{
+        width: 350px;
+        height: 350px;
+    }
+
+    .award-back li{
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width:1000px){
@@ -287,6 +296,24 @@ footer{
     }
 
     .award-container{
-        height: 70vh;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .award-back{
+        flex-direction: column;
+    }
+
+    #award-image-container{
+        width:250px;
+        height:250px;
+    }
+
+    #award-winner-info{
+        width:100%
+    }
+
+    .award-back li{
+        padding: 5px;
     }
 }
