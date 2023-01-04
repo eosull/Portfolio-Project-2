@@ -1,4 +1,4 @@
-function calculateStatistic(playerNum){
+function handleButtonPress(playerNum){
     let list, game, value, newPlayerNum;
 
     if (playerNum <= 5){
@@ -18,17 +18,21 @@ function calculateStatistic(playerNum){
         newPlayerNum = playerNum - 12;
     }
 
-    console.log(newPlayerNum);
+    calculateStatistic(list, game, value, playerNum, newPlayerNum);
+}
+
+function calculateStatistic(list, game, value, playerNum, newPlayerNum){
     let playerList = document.getElementsByClassName(list);
     let playerName = playerList[newPlayerNum].innerHTML;
+
     let gameList = document.getElementsByClassName(game);
     let games = gameList[newPlayerNum].innerHTML;
+
     let amountList = document.getElementsByClassName(value);
     let amount = amountList[newPlayerNum].innerHTML;
 
     let stat = parseFloat(amount/games).toFixed(2);
     returnStatement(playerNum, playerName, stat);
-    
 }
 
 function returnStatement(playerNum, playerName, stat){
