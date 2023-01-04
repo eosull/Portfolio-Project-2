@@ -1,39 +1,44 @@
-function calculateGoalsPerGame(playerNum){
-    let playerList = document.getElementsByClassName('goal-player');
-    let player = playerList[playerNum].innerHTML;
-    let gameList = document.getElementsByClassName('goal-games');
-    let game = gameList[playerNum].innerHTML;
-    let goalList = document.getElementsByClassName('goal-amount');
-    let goal = goalList[playerNum].innerHTML;
+function calculateStatistic(playerNum){
+    let list, game, value, newPlayerNum;
 
-    let gpg = parseFloat(goal/game).toFixed(2);
-    document.getElementById('gpg-statement').innerHTML = (`${player} Scored ${gpg} Goals Per Game`);  
+    if (playerNum <= 5){
+        list = 'goal-player';
+        game = 'goal-games';
+        value = 'goal-amount';
+        newPlayerNum = playerNum;
+    } else if (playerNum > 5 && playerNum <= 11){
+        list = 'assist-player';
+        game = 'assist-games';
+        value = 'assist-amount';
+        newPlayerNum = playerNum - 6;
+    } else {
+        list = 'cs-player';
+        game = 'cs-game';
+        value = 'cs-amount';
+        newPlayerNum = playerNum - 12;
+    }
+
+    console.log(newPlayerNum);
+    let playerList = document.getElementsByClassName(list);
+    let playerName = playerList[newPlayerNum].innerHTML;
+    let gameList = document.getElementsByClassName(game);
+    let games = gameList[newPlayerNum].innerHTML;
+    let amountList = document.getElementsByClassName(value);
+    let amount = amountList[newPlayerNum].innerHTML;
+
+    let stat = parseFloat(amount/games).toFixed(2);
+    returnStatement(playerNum, playerName, stat);
+    
 }
 
-function calculateAssistsPerGame(playerNum){
-    let playerList = document.getElementsByClassName('assist-player');
-    let player = playerList[playerNum].innerHTML;
-    let gameList = document.getElementsByClassName('assist-games');
-    let game = gameList[playerNum].innerHTML;
-    let assistList = document.getElementsByClassName('assist-amount');
-    let assist = assistList[playerNum].innerHTML;
-
-    let apg = parseFloat(assist/game).toFixed(2);
-
-    document.getElementById('apg-statement').innerHTML = (`${player} Provided ${apg} Assists Per Game`);
-}
-
-function calculateCSP(playerNum){
-    let playerList = document.getElementsByClassName('cs-player');
-    let player = playerList[playerNum].innerHTML;
-    let gameList = document.getElementsByClassName('cs-game');
-    let game = gameList[playerNum].innerHTML;
-    let csList = document.getElementsByClassName('cs-amount');
-    let cs = csList[playerNum].innerHTML;
-
-    let csp = parseFloat((cs/game) * 100).toFixed(2);
-
-    document.getElementById('csp-statement').innerHTML = (`${player} Kept a clean sheet in ${csp}% of games`);
+function returnStatement(playerNum, playerName, stat){
+    if (playerNum <= 5){
+        document.getElementById('gpg-statement').innerHTML = (`${playerName} Scored ${stat} Goals Per Game`);
+    } else if (playerNum <= 11){
+        document.getElementById('apg-statement').innerHTML = (`${playerName} Provided ${stat} Assists Per Game`);
+    } else {
+        document.getElementById('csp-statement').innerHTML = (`${playerName} Kept a clean sheet in ${stat}% of games`);
+    }
 }
 
 function flipAward(){
