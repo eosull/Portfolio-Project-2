@@ -122,18 +122,13 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-}
-
-#defence{
-    display: flex;
 }
 
 table{
     background-color: #65524da6;
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 table, th{
@@ -172,7 +167,6 @@ footer{
 }
 
 .award-container{
-    /* position:absolute; */
     width:90%;
     height: 90vh;
     text-align: center;
@@ -242,7 +236,6 @@ footer{
 
 #award-winner-info{
     width: 75%;
-    background-color: #65524da6;
 }
 
 #award-winner-info button{
@@ -293,6 +286,7 @@ footer{
 
     table{
         width: 100%;
+        font-size: small;
     }
 
     table, th{
