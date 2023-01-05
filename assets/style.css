@@ -99,7 +99,8 @@ section{
     width: 60%;
     text-align: center;
     line-height: 20px;
-    border: solid 1px #C4DACF;
+    border-radius: 5px;
+    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 .list-box > p{
@@ -117,6 +118,8 @@ button{
     background-color: #65524da6;
     color: white;
     border: none;
+    border-radius: 5px;
+    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
     text-decoration: solid;
     transition: padding 0.5s;
 }
@@ -146,12 +149,11 @@ table{
     width: 75%;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 table, th{
-    border: 1px solid;
-    border-color: #C4DACF;
-    border-collapse:collapse;
     text-align: center;
     padding: 20px;
 }
