@@ -130,7 +130,7 @@ button {
     border-radius: 5px;
     box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.2);
     text-decoration: solid;
-    transition: padding 0.5s;
+    transition: all 0.5s;
 }
 
 button:hover {
@@ -143,7 +143,7 @@ button:hover {
     margin: auto;
     border-radius: 10px;
     width: 80%;
-    background-color: #1f2734;
+    background-color: #42526e;
 }
 
 .calculate,
@@ -176,6 +176,10 @@ tr:nth-child(even) {
 .player-info:hover {
     background-color: #42526e;
     cursor: pointer;
+}
+
+.country-column{
+    display: none;
 }
 
 footer {
