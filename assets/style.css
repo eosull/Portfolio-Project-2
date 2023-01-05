@@ -112,6 +112,12 @@ button{
     color: white;
     border: none;
     text-decoration: solid;
+    transition: padding 1s;
+}
+
+button:hover{
+    padding: 30px;
+    background-color: #645a58a6;
 }
 
 .return-statement{
