@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Space+Grotesk:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Numans&family=Poppins:wght@300&display=swap');
 
 html{
     scroll-behavior: smooth;
@@ -47,10 +47,13 @@ header{
     text-align: center;
 }
 
+h1, h2{
+    font-family: 'Numans', sans-serif;
+    letter-spacing: 3px;
+}
+
 h1{
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 600%;
-    letter-spacing: 2px;
+    font-size: 800%;
     text-shadow: 1px 0.7px 5px black;
 }
 
@@ -87,10 +90,6 @@ section{
     flex-direction: column;
 }
 
-.list-box > h2{
-    text-decoration: underline;
-}
-
 .list-box{
     background-color: #65524da6;
     margin: auto;
@@ -102,6 +101,10 @@ section{
     line-height: 20px;
     border-radius: 5px;
     box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.list-box h2{
+    color: #1f2734c3;
 }
 
 .list-box > p{
