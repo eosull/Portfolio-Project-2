@@ -1,296 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/648f3bcf1e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Portfolio Project 2</title>
-</head>
-<body>
-    <header id="home">
-      <h1>World Cup 2022</h1>
-      <h2>Explore statistics from the Qatar World Cup and gain insights on player performance!</h2> 
-    </header>
 
-    <div id="logos">
-      <a href="#home"><i class="fa-solid fa-house"></i></a><br>
-      <a href="index.html"><i class="fa-solid fa-arrows-rotate"></i></a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/648f3bcf1e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="assets/style.css">
+  <title>Portfolio Project 2</title>
+</head>
+
+<body>
+  <header id="home">
+    <h1>World Cup 2022</h1>
+    <h2>Explore statistics from the Qatar World Cup and gain insights on player performance!</h2>
+  </header>
+
+  <div id="logos">
+    <a href="#home"><i class="fa-solid fa-house"></i></a><br>
+    <a href="index.html"><i class="fa-solid fa-arrows-rotate"></i></a>
+  </div>
+
+  <section class="stats" id="section1">
+    <div class="highlight-box">
+      <div class="list-box">
+        <h2>Goals</h2>
+        <h3>Top Goalscorer:</h3>
+        <p>Kylian Mbappé (8)</p>
+        <h3>Highest Scoring Team:</h3>
+        <p>France (16)</p>
+        <h3>Highest scoring Game:</h3>
+        <p>Spain 7 - 0 Costa Rica</p><br>
+        <h3>Go to <a href="#goalscorers">Goals</a> section</h3>
+      </div>
+
+      <div class="list-box">
+        <h2>Defence</h2>
+        <h3>Most Clean Sheets:</h3>
+        <p>Emi Martinez (3)</p>
+        <h3>Best Defensive Team:</h3>
+        <p>Morocco (4 goals conceded)</p>
+        <h3>Most Tackles:</h3>
+        <p>Achraf Hakimi (26)</p><br>
+        <h3>Go to <a href="#defence">Clean Sheets</a> section</h3>
+      </div>
     </div>
 
-    <section class="stats" id="section1">
-        <div class="highlight-box">
+    <div class="highlight-box">
+      <div class="list-box">
+        <h2>Attack</h2>
+        <h3>Most Assists:</h3>
+        <p>Antoine Griezmann (3)</p>
+        <h3>Most Chances Created:</h3>
+        <p>Kylian Mbappé (46)</p>
+        <h3>Most Team Chances Created:</h3>
+        <p>France (183)</p><br>
+        <h3>Go to <a href="#assists">Assists</a> section</h3>
+      </div>
 
-          
-            <div class = "list-box">
-              <h2>Goals</h2>
-                <h3>Top Goalscorer:</h3>
-                <p>Kylian Mbappé (8)</p>
-                <h3>Highest Scoring Team:</h3>
-                <p>France (16)</p>
-                <h3>Highest scoring Game:</h3>
-                <p>Spain 7 - 0 Costa Rica</p><br>
-                <h3>Go to <a href="#goalscorers">Goals</a> section</h3>
-            </div>
 
-            
-            <div class = "list-box">
-              <h2>Defence</h2>
-                <h3>Most Clean Sheets:</h3>
-                <p>Emi Martinez (3)</p>
-                <h3>Best Defensive Team:</h3>
-                <p>Morocco (4 goals conceded)</p>
-                <h3>Most Tackles:</h3>
-                <p>Achraf Hakimi (26)</p><br>
-                <h3>Go to <a href="#defence">Clean Sheets</a> section</h3>
-            </div>
+      <div class="list-box">
+        <h2>Player Awards</h2>
+        <h3>Golden Boot:</h3>
+        <p>Kylian Mbappé</p>
+        <h3>Golden Glove:</h3>
+        <p>Emiliano Martínez</p>
+        <h3>Player of the Tournamnet:</h3>
+        <p>Lionel Messi</p><br>
+        <h3>Go to <a href="#awards">Awards</a> section</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+
+    <div class="table-section" id="goalscorers">
+      <h2>Goals:</h2>
+      <table>
+        <tr>
+          <th>Player</th>
+          <th>Country</th>
+          <th>Games</th>
+          <th>Goals</th>
+        </tr>
+        <tr class="player-info" onclick="tableRead(0)">
+          <td class="goal-player">Kylian Mbappe</td>
+          <td>France</td>
+          <td class="goal-games">7</td>
+          <td class="goal-amount">8</td>
+        </tr>
+        <tr class="player-info">
+          <td class="goal-player">Lionel Messi</td>
+          <td>Argentina</td>
+          <td class="goal-games">7</td>
+          <td class="goal-amount">7</td>
+        </tr>
+        <tr class="player-info">
+          <td class="goal-player">Julian Alvarez</td>
+          <td>Argentina</td>
+          <td class="goal-games">7</td>
+          <td class="goal-amount">4</td>
+        </tr>
+        <tr class="player-info">
+          <td class="goal-player">Olivier Giroud</td>
+          <td>France</td>
+          <td class="goal-games">6</td>
+          <td class="goal-amount">4</td>
+        </tr>
+        <tr class="player-info">
+          <td class="goal-player">Alvaro Morata</td>
+          <td>Spain</td>
+          <td class="goal-games">4</td>
+          <td class="goal-amount">3</td>
+        </tr>
+        <tr class="player-info">
+          <td class="goal-player">Cody Gakpo</td>
+          <td>Netherlands</td>
+          <td class="goal-games">5</td>
+          <td class="goal-amount">3</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="calculate">
+      <h2>Calculate Goals Per Game:</h2>
+      <div class="button-bank">
+        <button onclick="handleButtonPress(0)">Kylian Mbappe</button>
+        <button onclick="handleButtonPress(1)">Lionel Messi</button>
+        <button onclick="handleButtonPress(2)">Julian Alvarez</button>
+        <button onclick="handleButtonPress(3)">Olivier Giroud</button>
+        <button onclick="handleButtonPress(4)">Alvaro Morata</button>
+        <button onclick="handleButtonPress(5)">Cody Gakpo</button>
+      </div>
+      <p class="return-statement" id="gpg-statement"></p>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="calculate">
+      <h2>Calculate Assists Per Game:</h2>
+      <div class="button-bank">
+        <button onclick="handleButtonPress(6)">Ivan Perisic</button>
+        <button onclick="handleButtonPress(7)">Lionel Messi</button>
+        <button onclick="handleButtonPress(8)">Harry Kane</button>
+        <button onclick="handleButtonPress(9)">Antoine Griezmann</button>
+        <button onclick="handleButtonPress(10)">Bruno Fernandes</button>
+        <button onclick="handleButtonPress(11)">Davy Klaasen</button>
+      </div>
+      <p class="return-statement" id="apg-statement"></p>
+    </div>
+
+    <div class="table-section" id="assists">
+      <h2>Assists:</h2>
+      <table>
+        <tr>
+          <th>Player</th>
+          <th>Country</th>
+          <th>Games</th>
+          <th>Assists</th>
+        </tr>
+        <tr class="player-info">
+          <td class="assist-player">Ivan Perisic</td>
+          <td>Croatia</td>
+          <td class="assist-games">7</td>
+          <td class="assist-amount">3</td>
+        </tr>
+        <tr class="player-info">
+          <td class="assist-player">Lionel Messi</td>
+          <td>Argentina</td>
+          <td class="assist-games">7</td>
+          <td class="assist-amount">3</td>
+        </tr>
+        <tr class="player-info">
+          <td class="assist-player">Harry Kane</td>
+          <td>England</td>
+          <td class="assist-games">5</td>
+          <td class="assist-amount">3</td>
+        </tr>
+        <tr class="player-info">
+          <td class="assist-player">Antoine Griezmann</td>
+          <td>France</td>
+          <td class="assist-games">7</td>
+          <td class="assist-amount">3</td>
+        </tr>
+        <tr class="player-info">
+          <td class="assist-player">Bruno Fernandes</td>
+          <td>Portugal</td>
+          <td class="assist-games">4</td>
+          <td class="assist-amount">3</td>
+        </tr>
+        <tr class="player-info">
+          <td class="assist-player">Davy Klaasen</td>
+          <td>Netherlands</td>
+          <td class="assist-games">4</td>
+          <td class="assist-amount">2</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section class="stats">
+
+    <div class="table-section" id="defence">
+      <h2>Clean Sheets:</h2>
+      <table>
+        <tr>
+          <th>Player</th>
+          <th>Country</th>
+          <th>Games</th>
+          <th>Clean Sheets</th>
+        </tr>
+        <tr class="player-info">
+          <td class="cs-player">Emi Martinez</td>
+          <td>Argentina</td>
+          <td class="cs-game">7</td>
+          <td class="cs-amount">3</td>
+        </tr>
+        <tr class="player-info">
+          <td class="cs-player">Dominik Livakovic</td>
+          <td>Croatia</td>
+          <td class="cs-game">7</td>
+          <td class="cs-amount">2</td>
+        </tr>
+        <tr class="player-info">
+          <td class="cs-player">Yassine Bounou</td>
+          <td>Morocco</td>
+          <td class="cs-game">6</td>
+          <td class="cs-amount">3</td>
+        </tr>
+        <tr class="player-info">
+          <td class="cs-player">Hugo Lloris</td>
+          <td>France</td>
+          <td class="cs-game">6</td>
+          <td class="cs-amount">1</td>
+        </tr>
+        <tr class="player-info">
+          <td class="cs-player">Jordan Pickford</td>
+          <td>England</td>
+          <td class="cs-game">5</td>
+          <td class="cs-amount">3</td>
+        </tr>
+        <tr class="player-info">
+          <td class="cs-player">Andries Noppert</td>
+          <td>Netherlands</td>
+          <td class="cs-game">5</td>
+          <td class="cs-amount">2</td>
+        </tr>
+      </table>
+    </div>
+    <div class="calculate">
+      <h2>Calculate Clean Sheet Percentage:</h2>
+      <div class="button-bank">
+        <button onclick="handleButtonPress(12)">Emi Martinez</button>
+        <button onclick="handleButtonPress(13)">Dominik Livakovic</button>
+        <button onclick="handleButtonPress(14)">Yassine Bounou</button>
+        <button onclick="handleButtonPress(15)">Hugo Lloris</button>
+        <button onclick="handleButtonPress(16)">Jordan Pickford</button>
+        <button onclick="handleButtonPress(17)">Andries Noppert</button>
+      </div>
+      <p class="return-statement" id="csp-statement"></p>
+    </div>
+  </section>
+
+  <section class="award" id="awards">
+    <div class="award-container">
+      <div class="award-card" id="card">
+        <div class="award-front">
+          <h3>Player of the Tounament</h3>
+          <button onclick="flipAward()">Click to Reveal!</button>
         </div>
-            <div class="highlight-box">
-
-              
-                <div class = "list-box">
-                  <h2>Attack</h2>
-                    <h3>Most Assists:</h3>
-                    <p>Antoine Griezmann (3)</p>
-                    <h3>Most Chances Created:</h3>
-                    <p>Kylian Mbappé (46)</p>
-                    <h3>Most Team Chances Created:</h3>
-                    <p>France (183)</p><br>
-                    <h3>Go to <a href="#assists">Assists</a> section</h3>
-                </div>
-    
-                
-                <div class = "list-box">
-                  <h2>Player Awards</h2>
-                    <h3>Golden Boot:</h3>
-                    <p>Kylian Mbappé</p>
-                    <h3>Golden Glove:</h3>
-                    <p>Emiliano Martínez</p>
-                    <h3>Player of the Tournamnet:</h3>
-                    <p>Lionel Messi</p><br>
-                    <h3>Go to <a href="#awards">Awards</a> section</h3>
-                </div>
-        </div>
-    </section>
-
-    <section class="stats">
-
-        <div class="table-section" id="goalscorers">
-          <h2>Goals:</h2>
-            <table>
-                <tr>
-                  <th>Player</th>
-                  <th>Country</th>
-                  <th>Games</th>
-                  <th>Goals</th>
-                </tr>
-                <tr class="player-info" onclick="tableRead(0)">
-                  <td class="goal-player">Kylian Mbappe</td>
-                  <td>France</td>
-                  <td class="goal-games">7</td>
-                  <td class="goal-amount">8</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="goal-player">Lionel Messi</td>
-                  <td>Argentina</td>
-                  <td class="goal-games">7</td>
-                  <td class="goal-amount">7</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="goal-player">Julian Alvarez</td>
-                  <td>Argentina</td>
-                  <td class="goal-games">7</td>
-                  <td class="goal-amount">4</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="goal-player">Olivier Giroud</td>
-                  <td>France</td>
-                  <td class="goal-games">6</td>
-                  <td class="goal-amount">4</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="goal-player">Alvaro Morata</td>
-                  <td>Spain</td>
-                  <td class="goal-games">4</td>
-                  <td class="goal-amount">3</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="goal-player">Cody Gakpo</td>
-                  <td>Netherlands</td>
-                  <td class="goal-games">5</td>
-                  <td class="goal-amount">3</td>
-                </tr>
-              </table>
-        </div>
-        
-        <div class="calculate">
-          <h2>Calculate Goals Per Game:</h2>
-          <div class="button-bank">
-          <button onclick="handleButtonPress(0)">Kylian Mbappe</button>
-          <button onclick="handleButtonPress(1)">Lionel Messi</button>
-          <button onclick="handleButtonPress(2)">Julian Alvarez</button>
-          <button onclick="handleButtonPress(3)">Olivier Giroud</button>
-          <button onclick="handleButtonPress(4)">Alvaro Morata</button>
-          <button onclick="handleButtonPress(5)">Cody Gakpo</button>
-          </div>
-          <p class="return-statement" id="gpg-statement"></p>
-        </div>
-    </section>
-
-    <section class="stats">
-        <div class="calculate">
-          <h2>Calculate Assists Per Game:</h2>
-          <div class="button-bank">
-          <button onclick="handleButtonPress(6)">Ivan Perisic</button>
-          <button onclick="handleButtonPress(7)">Lionel Messi</button>
-          <button onclick="handleButtonPress(8)">Harry Kane</button>
-          <button onclick="handleButtonPress(9)">Antoine Griezmann</button>
-          <button onclick="handleButtonPress(10)">Bruno Fernandes</button>
-          <button onclick="handleButtonPress(11)">Davy Klaasen</button>
-          </div>
-          <p class="return-statement" id="apg-statement"></p>
-        </div>
-
-        <div class="table-section" id="assists">
-          <h2>Assists:</h2>
-            <table>
-                <tr>
-                  <th>Player</th>
-                  <th>Country</th>
-                  <th>Games</th>
-                  <th>Assists</th>
-                </tr>
-                <tr class="player-info">
-                  <td class="assist-player">Ivan Perisic</td>
-                  <td>Croatia</td>
-                  <td class="assist-games">7</td>
-                  <td class="assist-amount">3</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="assist-player">Lionel Messi</td>
-                  <td>Argentina</td>
-                  <td class="assist-games">7</td>
-                  <td class="assist-amount">3</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="assist-player">Harry Kane</td>
-                  <td>England</td>
-                  <td class="assist-games">5</td>
-                  <td class="assist-amount">3</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="assist-player">Antoine Griezmann</td>
-                  <td>France</td>
-                  <td class="assist-games">7</td>
-                  <td class="assist-amount">3</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="assist-player">Bruno Fernandes</td>
-                  <td>Portugal</td>
-                  <td class="assist-games">4</td>
-                  <td class="assist-amount">3</td>
-                </tr>
-                <tr class="player-info">
-                  <td class="assist-player">Davy Klaasen</td>
-                  <td>Netherlands</td>
-                  <td class="assist-games">4</td>
-                  <td class="assist-amount">2</td>
-                </tr>
-              </table>
-        </div>
-    </section>
-
-    <section class="stats">
-
-        <div class="table-section" id="defence">
-          <h2>Clean Sheets:</h2>
-          <table>
-            <tr>
-              <th>Player</th>
-              <th>Country</th>
-              <th>Games</th>
-              <th>Clean Sheets</th>
-            </tr>
-            <tr class="player-info">
-              <td class="cs-player">Emi Martinez</td>
-              <td>Argentina</td>
-              <td class="cs-game">7</td>
-              <td class="cs-amount">3</td>
-            </tr>
-            <tr class="player-info">
-              <td class="cs-player">Dominik Livakovic</td>
-              <td>Croatia</td>
-              <td class="cs-game">7</td>
-              <td class="cs-amount">2</td>
-            </tr>
-            <tr class="player-info">
-              <td class="cs-player">Yassine Bounou</td>
-              <td>Morocco</td>
-              <td class="cs-game">6</td>
-              <td class="cs-amount">3</td>
-            </tr>
-            <tr class="player-info">
-              <td class="cs-player">Hugo Lloris</td>
-              <td>France</td>
-              <td class="cs-game">6</td>
-              <td class="cs-amount">1</td>
-            </tr>
-            <tr class="player-info">
-              <td class="cs-player">Jordan Pickford</td>
-              <td>England</td>
-              <td class="cs-game">5</td>
-              <td class="cs-amount">3</td>
-            </tr>
-            <tr class="player-info">
-              <td class="cs-player">Andries Noppert</td>
-              <td>Netherlands</td>
-              <td class="cs-game">5</td>
-              <td class="cs-amount">2</td>
-            </tr>
-          </table>
-        </div>
-        <div class="calculate">
-          <h2>Calculate Clean Sheet Percentage:</h2>
-          <div class="button-bank">
-          <button onclick="handleButtonPress(12)">Emi Martinez</button>
-          <button onclick="handleButtonPress(13)">Dominik Livakovic</button>
-          <button onclick="handleButtonPress(14)">Yassine Bounou</button>
-          <button onclick="handleButtonPress(15)">Hugo Lloris</button>
-          <button onclick="handleButtonPress(16)">Jordan Pickford</button>
-          <button onclick="handleButtonPress(17)">Andries Noppert</button>
-          </div>
-          <p class="return-statement" id="csp-statement"></p>
-        </div>
-    </section>
-
-    <section class="award" id="awards">
-      <div class="award-container">
-        <div class="award-card" id="card">
-          <div class="award-front">
-            <h3>Player of the Tounament</h3>
-            <button onclick="flipAward()">Click to Reveal!</button>
-          </div>
-          <div class="award-back">
-            <h3 id="award-winner-name">Lionel Messi</h3>
-            <div id="award-image-container"></div>
-            <div id="award-winner-info">
-                <p>Country: Argentina</p>
-                <p>Age: 35</p>
-                <p>Position: Attacking Midfielder</p>
-                <p>Scored 7 and assisted 3 goals in the tournament</p>
-                <p>Became first player ever to score in every round of the tournament</p>
-                <p>Led Argentina to their first World Cup win since 1986</p>
-              <button onclick="flipAward()">Go Back!</button>
-            </div>
+        <div class="award-back">
+          <h3 id="award-winner-name">Lionel Messi</h3>
+          <div id="award-image-container"></div>
+          <div id="award-winner-info">
+            <p>Country: Argentina</p>
+            <p>Age: 35</p>
+            <p>Position: Attacking Midfielder</p>
+            <p>Scored 7 and assisted 3 goals in the tournament</p>
+            <p>Became first player ever to score in every round of the tournament</p>
+            <p>Led Argentina to their first World Cup win since 1986</p>
+            <button onclick="flipAward()">Go Back!</button>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer>
-      <p>All statistics on this site are sourced from <a href="https://fbref.com/en/comps/1/World-Cup-Stats" target="_blank">fbref</a>.</p>
-    </footer>
-    <script src="assets/script.js"></script>
+  <footer>
+    <p>All statistics on this site are sourced from <a href="https://fbref.com/en/comps/1/World-Cup-Stats"
+        target="_blank">fbref</a>.</p>
+  </footer>
+  <script src="assets/script.js"></script>
 </body>
+
 </html>

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Numans&family=Poppins:wght@300&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
     margin: 0;
 }
 
-body{
+body {
     background-color: #42526e;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -13,7 +13,7 @@ body{
     padding: 0;
 }
 
-#logos{
+#logos {
     position: fixed;
     top: 40px;
     left: 10px;
@@ -22,49 +22,50 @@ body{
     text-decoration: none;
 }
 
-a{
+a {
     color: inherit;
     transition: all 0.5s;
 }
 
-a:link{
+a:link {
     text-decoration: underline;
 }
 
-a:visited{
+a:visited {
     color: inherit;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     font-size: 120%;
     cursor: pointer;
 }
 
-header{
-    width:100%;
+header {
+    width: 100%;
     height: 15%;
     text-align: center;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: 'Numans', sans-serif;
     letter-spacing: 3px;
 }
 
-h1{
+h1 {
     font-size: 800%;
     text-shadow: 1px 0.7px 5px black;
 }
 
-section{
+section {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.stats{
+.stats {
     background-color: transparent;
-    clear:both;
+    clear: both;
     min-height: 80vh;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -75,7 +76,7 @@ section{
     gap: 40px;
 }
 
-.stats > div{
+.stats>div {
     background-color: #e08d79cf;
     width: 40%;
     height: auto;
@@ -84,13 +85,13 @@ section{
     box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.highlight-box{
+.highlight-box {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.list-box{
+.list-box {
     background-color: #65524da6;
     margin: auto;
     margin-top: 20px;
@@ -100,21 +101,21 @@ section{
     text-align: center;
     line-height: 20px;
     border-radius: 5px;
-    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.list-box h2{
+.list-box h2 {
     color: #1f2734c3;
 }
 
-.list-box > p{
+.list-box>p {
     margin: auto;
     padding: 7px;
-    width:auto;
+    width: auto;
     background-color: #1f2734c3;
 }
 
-button{
+button {
     padding: 20px;
     margin: 15px;
     width: 40%;
@@ -123,67 +124,69 @@ button{
     color: white;
     border: none;
     border-radius: 5px;
-    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.2);
     text-decoration: solid;
     transition: padding 0.5s;
 }
 
-button:hover{
+button:hover {
     padding: 30px;
     background-color: #42526e;
     cursor: pointer;
 }
 
-.return-statement{
+.return-statement {
     margin: auto;
     border-radius: 10px;
     width: 80%;
     background-color: #1f2734;
 }
 
-.calculate, .table-section{
+.calculate,
+.table-section {
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-table{
+table {
     background-color: #65524da6;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
-    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-table, th{
+table,
+th {
     text-align: center;
     padding: 20px;
 }
 
-tr:nth-child(even){
+tr:nth-child(even) {
     background-color: #1f2734c3;
 }
 
-.player-info:hover{
+.player-info:hover {
     background-color: #42526e;
     cursor: pointer;
 }
 
-footer{
+footer {
     background-color: transparent;
     text-align: center;
-    display:flex;
+    display: flex;
     flex-direction: column-reverse;
     width: 100%;
     height: 100px;
 }
 
 /* Flip card styling */
-.award{
+.award {
     background-color: transparent;
-    clear:both;
+    clear: both;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,30 +197,30 @@ footer{
     gap: 40px;
 }
 
-.award-container{
-    width:90%;
+.award-container {
+    width: 90%;
     height: 90vh;
     text-align: center;
     perspective: 10000px;
     box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.award-card:hover .award-card{
+.award-card:hover .award-card {
     transform: rotateY(180deg);
 }
 
-.award-card{
-    width:100%;
-    height:100%;
-    position:relative;
+.award-card {
+    width: 100%;
+    height: 100%;
+    position: relative;
     transform-style: preserve-3d;
     transition: all 0.8s ease;
 }
 
-.award-front{
+.award-front {
     background-color: #E08D79;
     width: 100%;
-    height:100%;
+    height: 100%;
     position: absolute;
     backface-visibility: hidden;
     text-align: center;
@@ -227,16 +230,16 @@ footer{
     align-items: center;
 }
 
-.award-front > h3{
+.award-front>h3 {
     font-size: xx-large;
 }
 
-.award-front > p{
+.award-front>p {
     font-size: x-large;
 }
 
-.award-back{
-    background-color:#E08D79;
+.award-back {
+    background-color: #E08D79;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -250,12 +253,12 @@ footer{
     gap: 40px;
 }
 
-#award-winner-name{
+#award-winner-name {
     font-size: xx-large;
     letter-spacing: 5px;
 }
 
-#award-image-container{
+#award-image-container {
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -264,26 +267,26 @@ footer{
     overflow: hidden;
 }
 
-#award-winner-info{
+#award-winner-info {
     width: 50%;
     background-color: #65524da6;
     border-radius: 5px;
-    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-#award-winner-info button{
+#award-winner-info button {
     margin-left: auto;
     margin-right: auto;
 }
 
-.flipAward{
+.flipAward {
     transform: rotateY(180deg);
 }
 
 /* Mobile Responsiveness */
 
-@media screen and (max-width:1600px) and (min-width: 1000px){
-    .list-box{
+@media screen and (max-width:1600px) and (min-width: 1000px) {
+    .list-box {
         background-color: #65524da6;
         margin: auto;
         padding: 5px;
@@ -292,26 +295,26 @@ footer{
         line-height: 8px;
     }
 
-    #award-image-container{
+    #award-image-container {
         width: 350px;
         height: 350px;
     }
 
-    .award-back li{
+    .award-back li {
         padding: 10px;
     }
 
-    table{
+    table {
         width: 100%;
     }
 }
 
-@media screen and (max-width:1000px){
-    h1{
+@media screen and (max-width:1000px) {
+    h1 {
         font-size: 600%;
     }
 
-    .stats{
+    .stats {
         flex-direction: column;
         border-top: 100px;
         border-bottom: 100px;
@@ -321,56 +324,57 @@ footer{
         width: 90%;
     }
 
-    table{
+    table {
         width: 100%;
         font-size: small;
     }
 
-    table, th{
+    table,
+    th {
         padding: 0;
     }
 
-    button{
+    button {
         width: auto;
     }
 
-    .award-container{
+    .award-container {
         width: 100%;
         height: 90vh;
     }
 
-    .award-container button{
+    .award-container button {
         width: 60%;
     }
 
-    .award-back{
+    .award-back {
         flex-direction: column;
     }
 
-    #award-image-container{
-        width:0;
-        height:0;
+    #award-image-container {
+        width: 0;
+        height: 0;
     }
 
-    #award-winner-info{
-        width:100%
+    #award-winner-info {
+        width: 100%
     }
 
-    .award-back li{
+    .award-back li {
         padding: 5px;
     }
 }
 
-@media screen and (max-width:550px){
-    h1{
+@media screen and (max-width:550px) {
+    h1 {
         font-size: 300%;
     }
 
-    header h2{
+    header h2 {
         font-size: 90%;
     }
 
-    .list-box{
+    .list-box {
         width: 90%;
     }
 }
