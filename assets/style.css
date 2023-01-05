@@ -51,6 +51,7 @@ h1{
     font-family: 'Space Grotesk', sans-serif;
     font-size: 600%;
     letter-spacing: 2px;
+    text-shadow: 1px 0.7px 5px black;
 }
 
 section{
