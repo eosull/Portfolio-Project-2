@@ -247,6 +247,7 @@ footer{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 40px;
 }
 
 #award-winner-name{
@@ -264,7 +265,10 @@ footer{
 }
 
 #award-winner-info{
-    width: 75%;
+    width: 50%;
+    background-color: #65524da6;
+    border-radius: 5px;
+    box-shadow: 5px 8px 16px 0 rgba(0,0,0,0.2);
 }
 
 #award-winner-info button{
@@ -303,6 +307,10 @@ footer{
 }
 
 @media screen and (max-width:1000px){
+    h1{
+        font-size: 600%;
+    }
+
     .stats{
         flex-direction: column;
         border-top: 100px;
@@ -350,5 +358,19 @@ footer{
 
     .award-back li{
         padding: 5px;
+    }
+}
+
+@media screen and (max-width:550px){
+    h1{
+        font-size: 300%;
+    }
+
+    header h2{
+        font-size: 90%;
+    }
+
+    .list-box{
+        width: 90%;
     }
 }
