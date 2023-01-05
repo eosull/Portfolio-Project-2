@@ -43,7 +43,7 @@ header{
 
 h1{
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 700%;
+    font-size: 600%;
     letter-spacing: 2px;
 }
 
@@ -66,11 +66,12 @@ section{
 }
 
 .stats > div{
-    background-color: #E08D79;
-    width: 45%;
+    background-color: #e08d79cf;
+    width: 40%;
     height: auto;
     padding: 50px;
     border-radius: 10px;
+    box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .highlight-box{
@@ -174,6 +175,7 @@ footer{
     height: 90vh;
     text-align: center;
     perspective: 10000px;
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .award-card:hover .award-card{
