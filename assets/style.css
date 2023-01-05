@@ -22,6 +22,11 @@ body{
     text-decoration: none;
 }
 
+a{
+    color: inherit;
+    transition: all 0.5s;
+}
+
 a:link{
     text-decoration: underline;
 }
@@ -33,6 +38,7 @@ a:visited{
 
 a:hover{
     color: pink;
+    font-size: 120%;
 }
 
 header{
@@ -112,7 +118,7 @@ button{
     color: white;
     border: none;
     text-decoration: solid;
-    transition: padding 1s;
+    transition: padding 0.5s;
 }
 
 button:hover{
