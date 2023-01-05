@@ -37,8 +37,8 @@ a:visited{
 }
 
 a:hover{
-    color: pink;
     font-size: 120%;
+    cursor: pointer;
 }
 
 header{
@@ -123,7 +123,8 @@ button{
 
 button:hover{
     padding: 30px;
-    background-color: #645a58a6;
+    background-color: #42526e;
+    cursor: pointer;
 }
 
 .return-statement{
@@ -157,6 +158,11 @@ table, th{
 
 tr:nth-child(even){
     background-color: #1f2734c3;
+}
+
+.player-info:hover{
+    background-color: #42526e;
+    cursor: pointer;
 }
 
 footer{
