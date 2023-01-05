@@ -58,6 +58,10 @@ h1 {
     text-shadow: 1px 0.7px 5px black;
 }
 
+h1 i{
+    font-size: 80%;
+}
+
 section {
     margin-top: 15px;
     margin-bottom: 15px;
