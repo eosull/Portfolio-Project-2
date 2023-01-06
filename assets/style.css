@@ -192,15 +192,16 @@ footer {
 }
 
 /* Flip card styling */
+
 .award {
     background-color: transparent;
     clear: both;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 75vh;
     margin-top: 20px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
     gap: 40px;
 }
@@ -210,7 +211,7 @@ footer {
     height: 90vh;
     text-align: center;
     perspective: 10000px;
-    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .award-card:hover .award-card {
@@ -221,6 +222,7 @@ footer {
     width: 100%;
     height: 100%;
     position: relative;
+    border-radius: 10px;
     transform-style: preserve-3d;
     transition: all 0.8s ease;
 }
@@ -229,6 +231,9 @@ footer {
     background-color: #E08D79;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
+
     position: absolute;
     backface-visibility: hidden;
     text-align: center;
@@ -250,6 +255,9 @@ footer {
     background-color: #E08D79;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
+
     position: absolute;
     backface-visibility: hidden;
     text-align: center;
@@ -308,10 +316,6 @@ footer {
         height: 350px;
     }
 
-    .award-back li {
-        padding: 10px;
-    }
-
     table {
         width: 100%;
     }
@@ -346,8 +350,12 @@ footer {
         width: 90%;
     }
 
-    .award-container {
+    .award{
         width: 100%;
+    }
+
+    .award-container {
+        width: 90%;
         height: 90vh;
     }
 
@@ -357,19 +365,22 @@ footer {
 
     .award-back {
         flex-direction: column;
+        gap: 0;
     }
 
     #award-image-container {
-        width: 0;
-        height: 0;
+        display: none;
     }
 
     #award-winner-info {
+        background-color: #E08D79;
+        box-shadow: none;
         width: 100%
     }
 
-    .award-back li {
-        padding: 5px;
+    .award-back p {
+        font-size: 90%;
+        margin-bottom: 3px;
     }
 }
 
