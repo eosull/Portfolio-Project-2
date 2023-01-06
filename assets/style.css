@@ -20,6 +20,7 @@ body {
     color: rgba(255, 255, 255, 0.7);
     font-size: xx-large;
     text-decoration: none;
+    z-index: 1;
 }
 
 a {
@@ -373,6 +374,10 @@ footer {
 }
 
 @media screen and (max-width:550px) {
+    #logos{
+        top: 75%;
+    }
+
     h1 {
         font-size: 300%;
     }
