@@ -52,41 +52,41 @@ function flipAward() {
 function showCountry(playerNum) {
     if (playerNum === 0) {
         for (let i = 0; i <= 5; i++) {
-            let countryId = 'country' + i;
-            let countryHeading = readHeaderProperty(countryId);
-            document.getElementById(countryId).style.display = check(countryHeading);
+            modifyDataStyleProperty(i);
         }
-        let headingDisplay = 'countryh' + playerNum;
-        let countryHeading = readHeaderProperty(headingDisplay);
-        document.getElementById(headingDisplay).style.display = check(countryHeading);
+        modifyHeadingStyleProperty(playerNum);
     } else if (playerNum === 1) {
         for (let i = 6; i <= 11; i++) {
-            let countryId = 'country' + i;
-            let countryHeading = readHeaderProperty(countryId);
-            document.getElementById(countryId).style.display = check(countryHeading);
+            modifyDataStyleProperty(i);
         }
-        let headingDisplay = 'countryh' + playerNum;
-        let countryHeading = readHeaderProperty(headingDisplay);
-        document.getElementById(headingDisplay).style.display = check(countryHeading);
+        modifyHeadingStyleProperty(playerNum);
     } else if (playerNum === 2) {
         for (let i = 12; i <= 17; i++) {
-            let countryId = 'country' + i;
-            let countryHeading = readHeaderProperty(countryId);
-            document.getElementById(countryId).style.display = check(countryHeading);
+            modifyDataStyleProperty(i);
         }
-        let headingDisplay = 'countryh' + playerNum;
-        let countryHeading = readHeaderProperty(headingDisplay);
-        document.getElementById(headingDisplay).style.display = check(countryHeading);
+        modifyHeadingStyleProperty(playerNum);
     }
 }
 
-function readHeaderProperty(countryId){
-    let findElement = document.getElementById(countryId);
-    let propertyValue = window.getComputedStyle(findElement).getPropertyValue('display');
-    return(propertyValue);
+function modifyDataStyleProperty(i){
+    let tdId = 'country' + i;
+    let tdStyleProperty = readHeaderProperty(tdId);
+    document.getElementById(tdId).style.display = decidePropertyValue(tdStyleProperty);
 }
 
-function check(headingCode) {
+function modifyHeadingStyleProperty(playerNum){
+    let thId = 'countryh' + playerNum;
+    let thStyleProperty = readHeaderProperty(thId);
+    document.getElementById(thId).style.display = decidePropertyValue(thStyleProperty);
+}
+
+function readHeaderProperty(countryId) {
+    let findElement = document.getElementById(countryId);
+    let propertyValue = window.getComputedStyle(findElement).getPropertyValue('display');
+    return (propertyValue);
+}
+
+function decidePropertyValue(headingCode) {
     if (headingCode === 'none') {
         headingCode = 'block';
     } else {
