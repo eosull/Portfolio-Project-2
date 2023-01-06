@@ -49,8 +49,25 @@ function flipAward() {
     card.classList.toggle('flipAward');
 }
 
-function showCountry(playerNum){
-    document.getElementById('country').style.display = 'block';
-    let playerCountry = 'country' + playerNum;
-    document.getElementById(playerCountry).style.display = 'block';
+function showCountry(playerNum) {
+    if (playerNum === 0) {
+        for (let i = 0; i <= 5; i++) {
+            let playerCountry = 'country' + i;
+            console.log(playerCountry);
+            document.getElementById(playerCountry).style.display = 'block';
+        }
+    }
+
+    let headingDisplay = 'countryh' + 0;
+    console.log(headingDisplay)
+
+    let styleDocCheck = document.getElementById(headingDisplay);
+    let countryHeading = window.getComputedStyle(styleDocCheck).getPropertyValue('display');
+    
+    if (countryHeading === 'none'){
+        countryHeading = 'block';
+    } else {
+        countryHeading = 'none';
+    }
+    console.log(countryHeading);
 }
