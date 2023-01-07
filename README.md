@@ -59,6 +59,9 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 ![Home and Refresh Screenshot](/assets/readme-images/home-refresh-screenshot.png)
 
 ### Features for Future Implementation
+- Data sources
+  - One idea for future implementation would be to source data from external sources, such as an API or an .xml file.
+  - On this site all data is stored in tables on the index.html page which is not an efficient solution for larger data samples.
 
 ## Testing
 
