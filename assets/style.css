@@ -274,49 +274,53 @@ footer {
     letter-spacing: 5px;
 }
 
-#award-image-container {
+.award-image-container {
+    background-color: transparent;
     width: 500px;
     height: 500px;
     border-radius: 50%;
     perspective: 1000px;
-}
-
-.flip-pic{
-    position:relative;
+  }
+  
+  .award-image-inner {
+    position: relative;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: inherit;
     text-align: center;
-    transition: transition 0.5s;
+    transition: transform 1s;
     transform-style: preserve-3d;
-}
-
-#award-image-container:hover, .pic-back{
+  }
+ 
+  .award-image-container:hover .award-image-inner {
     transform: rotateY(180deg);
-}
-
-#pic{
-
-}
-
-.pic-front, .pic-back{
+  }
+  
+  .award-image-front, .award-image-back {
     position: absolute;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: inherit;
     backface-visibility: hidden;
-}
-
-.pic-front{
-    background: url('./images/lionel-messi.jpeg');
-    background-position: 50% 50%;
+  }
+  
+  .award-image-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
-}
-
-.pic-back{
-    background-color: #65524da6;
+  }
+  
+  .award-image-back {
+    text-align: center;
+    background-color: #1f2734c3;;
     transform: rotateY(180deg);
-}
+  }
+
+  .award-image-back p{
+    margin-top: 11%;
+  }
+
 
 #award-winner-info {
     width: 50%;
@@ -333,8 +337,6 @@ footer {
 .flipAward {
     transform: rotateY(180deg);
 }
-
-/* Mobile Responsiveness */
 
 @media screen and (max-width:1600px) and (min-width: 1000px) {
     .list-box {
@@ -354,6 +356,11 @@ footer {
     table {
         width: 100%;
     }
+
+    .award-image-back p{
+        margin-top: 15%;
+      }
+
 }
 
 @media screen and (max-width:1000px) {
@@ -403,7 +410,15 @@ footer {
         gap: 0;
     }
 
-    #award-image-container {
+    #award-winner-name{
+        margin-top: 60px;
+    }
+
+    .award-image-front {
+        display: none;
+    }
+
+    .award-image-front img {
         display: none;
     }
 
