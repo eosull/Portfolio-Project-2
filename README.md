@@ -50,5 +50,5 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
     https://people.com/thmb/E2kiLjE9bmFgnx9TiMYhq-OVOuQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x438:1001x440):format(webp)/lionel-messi-most-liked-instagram-picute-122222-2e46f8ce2f8444948fce28f2c84c72f2.jpg - Leo Messi WC Photo
     https://coolors.co/00072d-e08d79-c4dacf-0e6ba8-65524d - Color palette generator
     https://fbref.com/en/comps/1/World-Cup-Stats - Statistics Source
-    
+    https://favicon.io/emoji-favicons/soccer-ball - Favicon Source
     
