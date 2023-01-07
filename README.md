@@ -84,16 +84,20 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 - A live link for the site can be found here: [INSERT LIVE LINK]
 
 ## Credits
-
-### References
-   
-    https://css-tricks.com/snippets/css/a-guide-to-flexbox/ - CSS Flexbox help
-    https://codepen.io/mogpt/pen/ebXdzg - CSS Flexbox Grids
-    https://jefferson-cuartas.medium.com/how-to-create-a-flip-card-effect-using-javascript-767dd945210c - JS flipcards
-    https://www.youtube.com/watch?v=OV8MVmtgmoY&ab_channel=ArjunKhara - JS flipcards
-    https://www.w3schools.com/howto/howto_css_flip_card.asp - W3 schools CSS flipcards
-    https://people.com/thmb/E2kiLjE9bmFgnx9TiMYhq-OVOuQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x438:1001x440):format(webp)/lionel-messi-most-liked-instagram-picute-122222-2e46f8ce2f8444948fce28f2c84c72f2.jpg - Leo Messi WC Photo
-    https://coolors.co/00072d-e08d79-c4dacf-0e6ba8-65524d - Color palette generator
-    https://fbref.com/en/comps/1/World-Cup-Stats - Statistics Source
-    https://favicon.io/emoji-favicons/soccer-ball - Favicon Source
+- All of the statistics for this site were sourced from [fbref](https://fbref.com/en/comps/1/World-Cup-Stats) 
+- The image used on this site was sourced from [People Magazine](https://people.com/thmb/E2kiLjE9bmFgnx9TiMYhq-OVOuQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x438:1001x440):format(webp)/lionel-messi-most-liked-instagram-picute-122222-2e46f8ce2f8444948fce28f2c84c72f2.jpg)
+- The football favicon was sourced from [favicon.io](https://favicon.io/emoji-favicons/soccer-ball)
+- [coolors.co](https://coolors.co/00072d-e08d79-c4dacf-0e6ba8-65524d) was used to help create a complimentary color palette
+- Sites such as [W3Schools](www.w3shcools.com),[Stack Overflow](https://stackoverflow.com/) and [mdn web docs](https://developer.mozilla.org/en-US/docs/Web) were of great use during development especially when troubleshooting or trying to resolve issues
+- Specific tutorials and resources were used for a number of features:
+  - Flexbox:
+    - [CSS tricks guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    - [Codepen Flexbox grids guide](https://codepen.io/mogpt/pen/ebXdzg)
+  - Flipcards:
+    - [W3Schools flipcard how to](https://www.w3schools.com/howto/howto_css_flip_card.asp )
+    - [Jefferson Cuartas JS flipcard tutorial](https://jefferson-cuartas.medium.com/how-to-create-a-flip-card-effect-using-javascript-767dd945210c)
+    - [Implementation of JS flipcards Youtube](https://www.youtube.com/watch?v=OV8MVmtgmoY&ab_channel=ArjunKhara)
+- Code Institute materials were used to assist writing README file, such as the [README template](https://github.com/Code-Institute-Solutions/readme-template) and the [Markdown Cheatsheet](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- The Code Institute [Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used as a template to begin building this site
+- Site responsivness visualised using [Am I Responsive?](https://ui.dev/amiresponsive)
     
