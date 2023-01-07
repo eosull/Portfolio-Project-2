@@ -46,7 +46,11 @@ function returnStatement(playerNum, playerName, stat) {
 }
 
 function flipAward() {
-    card.classList.toggle('flipAward');
+    card.classList.toggle('flip-award');
+}
+
+function flipImage(){
+    image.classList.toggle('flip-image');
 }
 
 function showCountry(playerNum) {

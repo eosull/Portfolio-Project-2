@@ -59,7 +59,7 @@ h1 {
     text-shadow: 1px 0.7px 5px black;
 }
 
-h1 i{
+h1 i {
     font-size: 80%;
 }
 
@@ -178,7 +178,7 @@ tr:nth-child(even) {
     cursor: pointer;
 }
 
-.country-column{
+.country-column {
     display: none;
 }
 
@@ -212,10 +212,6 @@ footer {
     text-align: center;
     perspective: 10000px;
     border-radius: 10px;
-}
-
-.award-card:hover .award-card {
-    transform: rotateY(180deg);
 }
 
 .award-card {
@@ -280,9 +276,9 @@ footer {
     height: 500px;
     border-radius: 50%;
     perspective: 1000px;
-  }
-  
-  .award-image-inner {
+}
+
+.award-image-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -290,37 +286,37 @@ footer {
     text-align: center;
     transition: transform 1s;
     transform-style: preserve-3d;
-  }
- 
-  .award-image-container:hover .award-image-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .award-image-front, .award-image-back {
+}
+
+.award-image-front,
+.award-image-back {
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: inherit;
     backface-visibility: hidden;
-  }
-  
-  .award-image-front {
+}
+
+.award-image-front {
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
-  }
-  
-  .award-image-back {
+}
+
+.award-image-back {
     text-align: center;
-    background-color: #1f2734c3;;
+    background-color: #1f2734c3;
     transform: rotateY(180deg);
-  }
+}
 
-  .award-image-back p{
+.award-image-back p {
     margin-top: 11%;
-  }
+}
 
+.flip-image {
+    transform: rotateY(180deg);
+}
 
 #award-winner-info {
     width: 50%;
@@ -334,7 +330,7 @@ footer {
     margin-right: auto;
 }
 
-.flipAward {
+.flip-award {
     transform: rotateY(180deg);
 }
 
@@ -357,9 +353,9 @@ footer {
         width: 100%;
     }
 
-    .award-image-back p{
+    .award-image-back p {
         margin-top: 15%;
-      }
+    }
 
 }
 
@@ -392,7 +388,7 @@ footer {
         width: 90%;
     }
 
-    .award{
+    .award {
         width: 90;
     }
 
@@ -410,7 +406,7 @@ footer {
         gap: 0;
     }
 
-    #award-winner-name{
+    #award-winner-name {
         margin-top: 60px;
     }
 
@@ -435,7 +431,7 @@ footer {
 }
 
 @media screen and (max-width:550px) {
-    #logos{
+    #logos {
         top: 75%;
     }
 
