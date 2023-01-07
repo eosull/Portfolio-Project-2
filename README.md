@@ -2,7 +2,7 @@
 
 ## HTML/CSS/JavaScript Portfolio Project 2
 
-![Am I responsive Screenshot]()
+![Am I responsive Screenshot](/assets/readme-images/am-i-responsive-screenshot.png)
 
 ## Site Info
 
@@ -15,6 +15,48 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 ## Features
 
 ### Existing Features
+- Highlights Section
+  - This section gives some highlighted statistics from the World Cup. It also contains links that the user can use to navigate to individual sections.
+
+![Highlights Section Screenshot](/assets/readme-images/highlight-section-screenshot.png)
+
+- Table Section
+  - There are 3 tables on the site; one for goals, assists and clean sheets.
+  - Each table holds data for 6 players; their name, games played at the world cup and amount of goals, assists or clean sheets.
+  - There is an expand option on each table that allows the user to interact. This displays the country they play for and when pressed again this is hidden.
+
+![Goals Table Screenshot](/assets/readme-images/goal-table-screenshot.png)
+
+![Goals Table Expanded Screenshot](/assets/readme-images/goal-table-expanded-screenshot.png)
+
+- Calculate Section
+  - There are also 3 calculate sections on the site, alongside the table whose data they work with.
+  - One section calculates goals per game, one calculates assists per game, and the last calculates clean sheet percentage.
+  - When the user presses one of the buttons that contains a players name, a statistic and statement corresponding to that player is formulated and returned to them.
+
+![Assists Calculate Screenshot](/assets/readme-images/assist-calculate-screenshot.png)
+
+![Assists Calculate Pressed Screenshot](/assets/readme-images/assist-calculate-pressed-screenshot.png)
+
+- Award Section
+  - At the bottom of the page there is an award card with a button. It invites the user to press a button to reveal who the player of the tournament was.
+
+![Award Front Screenshot](/assets/readme-images/award-card-front-screenshot.png)
+
+  - Once clicked, this award card flips over and presents an image and some information on the player of the tournament.
+  - If hovered over, this image also flips to display some further statistics.
+
+![Award Back Screenshot](/assets/readme-images/award-card-back-screenshot.png)
+
+![Award Back Flip Screenshot](/assets/readme-images/award-card-back-flip-screenshot.png)
+
+- Home & Refresh Icon
+  - In the top left corner of the screen there are 2 icons; a home icon and a refresh icon.
+  - The home icon can be used to return to the top of the page after scrolling down.
+  - The refresh icon reloads the page and will clear any statistics that have been generated.
+  - This icon recolates to the bottom left for smaller screens.
+
+![Home and Refresh Screenshot](/assets/readme-images/home-refresh-screenshot.png)
 
 ### Features for Future Implementation
 
