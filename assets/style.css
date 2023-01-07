@@ -130,7 +130,6 @@ button {
     border: none;
     border-radius: 5px;
     box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.2);
-    text-decoration: solid;
     transition: all 0.2s;
 }
 
@@ -173,8 +172,26 @@ tr:nth-child(even) {
     background-color: #1f2734c3;
 }
 
+.expand{
+    font-size: 200%;
+    width: 30px;
+    transition: all 0.2s;
+}
+
+.table-section p{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #65524da6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+}
+
 .expand:hover {
-    background-color: #42526e;
+    color: #42526e;
     cursor: pointer;
 }
 
@@ -360,6 +377,8 @@ footer {
     .award-image-back p {
         margin-top: 15%;
     }
+    
+
 
 }
 
@@ -386,6 +405,10 @@ footer {
     table,
     th {
         padding: 0;
+    }
+
+    .table-section p{
+        font-size: small;
     }
 
     button {
