@@ -265,6 +265,10 @@ footer {
     gap: 40px;
 }
 
+.card-title{
+    color:#1f2734c3;
+}
+
 #award-winner-name {
     font-size: xx-large;
     letter-spacing: 5px;
