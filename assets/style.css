@@ -363,8 +363,7 @@ footer {
 @media screen and (max-width:1600px) and (min-width: 1000px) {
     .list-box {
         background-color: #65524da6;
-        margin: auto;
-        padding: 5px;
+        margin-bottom: 10px;
         width: 90%;
         text-align: center;
         line-height: 8px;
@@ -382,9 +381,6 @@ footer {
     .award-image-back p {
         margin-top: 15%;
     }
-    
-
-
 }
 
 @media screen and (max-width:1000px) {
