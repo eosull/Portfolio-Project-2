@@ -475,4 +475,8 @@ footer {
     .list-box {
         width: 90%;
     }
+
+    .award-front, .award-back, .award-image-front, .award-image-back{
+        -webkit-backface-visibility: hidden;
+    }
 }
