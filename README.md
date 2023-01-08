@@ -76,6 +76,10 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 
 ![Lighthouse Test Screenshot](/assets/readme-images/lighthouse-test-screenshot.png)
 
+  - Descriptive text & meta info were added. Text/Background colour changes were made but with every change different contrast cautions came up. The site was checked using WAVE (described below) to verify accessibility and it presented no contrast errors so no more changes were made.
+
+![Lighthouse Test Screenshot](/assets/readme-images/lighthouse-test-resolved-screenshot.png)
+
 - WAVE Accesibility Testing
   - The [WAVE](https://wave.webaim.org/report#/https://eosull.github.io/Portfolio-Project-2/) tool was used to test accessibility on the site and this pointed to improvements that could be made with contrast of heading text and descriptive text for home/refresh icon
 
