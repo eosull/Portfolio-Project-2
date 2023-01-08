@@ -77,9 +77,9 @@ This website is designed to present information about the 2022 World Cup in Qata
 - __Users can easily understand data presented:__
   - An overview of statistics from the tournament are presented first before displaying further detail
   - Table elements are used to clearly compare players against one another
-  - Calculated statistics are provided in a statement to show usage
+  - Calculated statistics are provided in a clear statement
 - __User can easily navigate site and explore different sections:__
-  - The site contains links to individual statistic sections in the overview section
+  - The site contains links to sections in the overview section
   - A home button is always present allowing user to return to top of page whenever they wish
   - A refresh button is also included to allow users to refresh the page and get rid of content they may have generated
 - __User can intuitively interact with elements on site that present further data:__
