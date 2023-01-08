@@ -1,10 +1,13 @@
+/* Import fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Numans&family=Poppins:wght@300&display=swap');
 
+/* HTML styling to enable smooth scroll between links */
 html {
     scroll-behavior: smooth;
     margin: 0;
 }
 
+/* Body styling */
 body {
     background-color: #42526e;
     color: white;
@@ -13,6 +16,7 @@ body {
     padding: 0;
 }
 
+/* Styling for home & refresh icons */
 #logos {
     position: fixed;
     top: 40px;
@@ -21,6 +25,7 @@ body {
     z-index: 1;
 }
 
+/* Link stlying, including styling for hovered & visited links */
 a {
     color: inherit;
     transition: all 0.5s;
@@ -52,6 +57,7 @@ a:hover {
     font-size: 200%;
 }
 
+/* Header and header text styling */
 header {
     width: 100%;
     height: 15%;
@@ -61,6 +67,8 @@ header {
 header h2{
     color: white;
 }
+
+/* H1 & H2 element styling */
 
 h1,
 h2 {
@@ -73,19 +81,21 @@ h1 {
     text-shadow: 1px 0.7px 5px black;
 }
 
-h2{
-    color: #1f2734c3;
-}
-
 h1 i {
     font-size: 80%;
 }
 
+h2{
+    color: #1f2734c3;
+}
+
+/* Section margin styling */
 section {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
+/* Styling for section and divs used throughout site */
 .stats {
     background-color: transparent;
     clear: both;
@@ -99,7 +109,7 @@ section {
     gap: 40px;
 }
 
-.stats>div {
+.stats > div {
     background-color: #E08D79;
     width: 40%;
     height: auto;
@@ -108,6 +118,7 @@ section {
     box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Styling for highlight section at top of page */
 .highlight-box {
     text-align: center;
     display: flex;
@@ -132,18 +143,18 @@ section {
     text-shadow: none;
 }
 
-.list-box>p {
+.list-box > p {
     margin: auto;
     padding: 7px;
     width: auto;
     background-color: #1f2734c3;
 }
 
+/* Button styling including hover responsivness */
 button {
     padding: 20px;
     margin: 15px;
     width: 40%;
-
     background-color: #a5786da6;
     color: white;
     border: none;
@@ -157,13 +168,7 @@ button:hover {
     cursor: pointer;
 }
 
-.return-statement {
-    margin: auto;
-    border-radius: 10px;
-    width: 80%;
-    background-color: #42526e;
-}
-
+/* General styling for divs containing calculate feature and tables */
 .calculate,
 .table-section {
     text-align: center;
@@ -172,6 +177,15 @@ button:hover {
     justify-content: center;
 }
 
+/* Calculate return statement styling */
+.return-statement {
+    margin: auto;
+    border-radius: 10px;
+    width: 80%;
+    background-color: #42526e;
+}
+
+/* Table styling including button hover responsivness */
 table {
     background-color: #a5786da6;
     width: 75%;
@@ -196,10 +210,6 @@ tr:nth-child(even) {
     margin-right: auto;
     width: auto;
     height:auto
-}
-
-.table-section i:hover{
-    color: white;
 }
 
 .expand{
@@ -228,6 +238,7 @@ tr:nth-child(even) {
     display: none;
 }
 
+/* Footer styling */
 footer {
     background-color: transparent;
     text-align: center;
@@ -237,8 +248,7 @@ footer {
     height: 100px;
 }
 
-/* Flip card styling */
-
+/* Award section styling */
 .award {
     background-color: transparent;
     clear: both;
@@ -252,6 +262,7 @@ footer {
     gap: 40px;
 }
 
+/* Award card container and inner styling */
 .award-container {
     width: 90%;
     height: 90vh;
@@ -269,13 +280,13 @@ footer {
     transition: all 1s ease;
 }
 
+/* Award front element styling */
 .award-front {
     background-color: #E08D79;
     width: 100%;
     height: 100%;
     border-radius: 10px;
     box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
-
     position: absolute;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -294,13 +305,13 @@ footer {
     font-size: x-large;
 }
 
+/* Award back styling */
 .award-back {
     background-color: #E08D79;
     width: 100%;
     height: 100%;
     border-radius: 10px;
     box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2);
-
     position: absolute;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
@@ -322,6 +333,7 @@ footer {
     letter-spacing: 5px;
 }
 
+/* Award image container and inner styling to facilitate flip */
 .award-image-container {
     background-color: transparent;
     width: 500px;
@@ -350,6 +362,7 @@ footer {
     -webkit-backface-visibility: hidden;
 }
 
+/* Image front styling (image) */
 .award-image-front {
     display: flex;
     justify-content: center;
@@ -357,6 +370,7 @@ footer {
     overflow: hidden;
 }
 
+/* Image back styling (text) */
 .award-image-back {
     text-align: center;
     background-color: #1f2734c3;
@@ -367,10 +381,7 @@ footer {
     margin-top: 11%;
 }
 
-.flip-image {
-    transform: rotateY(180deg);
-}
-
+/* Award winner info and button styling */
 #award-winner-info {
     width: 50%;
     background-color: #65524da6;
@@ -383,10 +394,17 @@ footer {
     margin-right: auto;
 }
 
+/* Class that is called by JS code and enables the image flip to occur */
+.flip-image {
+    transform: rotateY(180deg);
+}
+
+/* Class that is called by JS code and enables the award card flip to occur */
 .flip-award {
     transform: rotateY(180deg);
 }
 
+/* Media queries for medium-large sized screens */
 @media screen and (max-width:1600px) and (min-width: 1000px) {
     .list-box {
         background-color: #65524da6;
@@ -410,6 +428,7 @@ footer {
     }
 }
 
+/* Media queries for small-medium screens */
 @media screen and (max-width:1000px) {
     h1 {
         font-size: 600%;
@@ -485,6 +504,7 @@ footer {
     }
 }
 
+/* Media queries for smallest screen compatibility */
 @media screen and (max-width:550px) {
     #logos {
         top: 75%;
