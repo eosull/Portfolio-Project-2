@@ -72,6 +72,12 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 ### Issues faced during development
 
 ### Validator Testing
+- HTML
+  - No errors were detected when passing site through the [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Feosull.github.io%2FPortfolio-Project-2%2F)
+- CSS
+  - No errors were detected when passing site through the [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feosull.github.io%2FPortfolio-Project-2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- Javascript
+  - No errors were detected when JS code was validated using [JSHint](https://jshint.com/)
 
 ### Unfixed Bugs
 
