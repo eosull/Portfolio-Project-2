@@ -81,6 +81,10 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 
 ![WAVE Accesibility Test Screenshot](/assets/readme-images/wave-test-screenshot.png)
 
+  - The text colour of headings and of 'expand' text under tables was changed to increase contrast. Link descriptions also added to nav links. The 3 alerts are related to the expand feature being dependant on a mouse to use.
+
+![WAVE Accesibility Test Resolved Screenshot](/assets/readme-images/wave-test-resolved-screenshot.png)
+
 ### Issues faced during development
 
 ### Validator Testing
