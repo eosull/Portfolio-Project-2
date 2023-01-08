@@ -65,9 +65,21 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 
 ## Testing
 
-### Functionality Testing
+### Goal Testing
 
-### Lighthouse Testing
+### Functionality Testing
+- Chrome Developer tools and Mozilla Firefox Web Developer Tools were used throughout the development of the site to test functionality, diagnose and solve issues with responsivness and assist with styling work. The console on developer tools was used to test and debug Javascript code during development of the site.
+- The site was tested on Chrome, Safari & Firefox using a Macbook pro and Safari & Google Chrome using an Iphone 8.
+
+- Lighthouse Testing
+  - The lighthouse tool was used in Chrome to test and pointed to 3 improvements that could be made; contrast of text in headings and list boxes, descriptive text on home/refresh link and meta info for increased SEO performance
+
+![Lighthouse Test Screenshot](/assets/readme-images/lighthouse-test-screenshot.png)
+
+- WAVE Accesibility Testing
+  - The [WAVE](https://wave.webaim.org/report#/https://eosull.github.io/Portfolio-Project-2/) tool was used to test accessibility on the site and this pointed to improvements that could be made with contrast of heading text and descriptive text for home/refresh icon
+
+![WAVE Accesibility Test Screenshot](/assets/readme-images/wave-test-screenshot.png)
 
 ### Issues faced during development
 
