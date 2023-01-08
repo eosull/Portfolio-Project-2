@@ -44,6 +44,10 @@ a:hover {
     font-size: 100%;
 }
 
+.nav-link:hover{
+    color: #E08D79;
+}
+
 .nav-link i{
     font-size: 200%;
 }
