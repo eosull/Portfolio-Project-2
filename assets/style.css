@@ -187,17 +187,21 @@ tr:nth-child(even) {
     background-color: #1f2734c3;
 }
 
+.table-section button{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height:auto
+}
+
+.table-section i:hover{
+    color: white;
+}
+
 .expand{
     font-size: 200%;
-    width: 30px;
-    padding: 10px;
     transition: all 0.2s;
-    background-color: #a5786da6;
     color: white;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 5px 8px 16px 0 rgba(0, 0, 0, 0.2);
-    transition: all 0.2s;
 }
 
 .expand-text{
