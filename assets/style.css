@@ -65,6 +65,10 @@ h1 {
     text-shadow: 1px 0.7px 5px black;
 }
 
+h2{
+    text-shadow: 2px 1px 6px black;
+}
+
 h1 i {
     font-size: 80%;
 }
@@ -117,6 +121,7 @@ section {
 
 .list-box h2 {
     color: #1f2734c3;
+    text-shadow: none;
 }
 
 .list-box>p {
