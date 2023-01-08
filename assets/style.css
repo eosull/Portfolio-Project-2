@@ -230,7 +230,6 @@ tr:nth-child(even) {
 }
 
 .expand:hover {
-    color: #42526e;
     cursor: pointer;
 }
 
