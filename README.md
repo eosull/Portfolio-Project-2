@@ -83,11 +83,15 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 - WAVE Accesibility Testing
   - The [WAVE](https://wave.webaim.org/report#/https://eosull.github.io/Portfolio-Project-2/) tool was used to test accessibility on the site and this pointed to improvements that could be made with contrast of heading text and descriptive text for home/refresh icon
 
-![WAVE Accesibility Test Screenshot](/assets/readme-images/wave-test-screenshot.png)
+![WAVE Accessibility Test Screenshot](/assets/readme-images/wave-test-screenshot.png)
 
   - The text colour of headings and of 'expand' text under tables was changed to increase contrast. Link descriptions also added to nav links. The 3 alerts are related to the expand feature being dependant on a mouse to use.
 
-![WAVE Accesibility Test Resolved Screenshot](/assets/readme-images/wave-test-resolved-screenshot.png)
+![WAVE Accessibility Test Resolved Screenshot](/assets/readme-images/wave-test-resolved-screenshot.png)
+
+  - This issue with the expand feature was resolved by turning it into a button rather than a link that triggers the feature.
+
+![WAVE Accessibility Test Resolved Button Screenshot](/assets/readme-images/wave-test-resolved-button-screenshot.png)
 
 ### Issues faced during development
 
