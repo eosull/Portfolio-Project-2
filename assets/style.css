@@ -369,7 +369,7 @@ footer {
         line-height: 8px;
     }
 
-    #award-image-container {
+    .award-image-container {
         width: 350px;
         height: 350px;
     }
@@ -438,7 +438,7 @@ footer {
         margin-top: 60px;
     }
 
-    .award-image-front {
+    .award-image-front, .award-image-back, .award-image-container {
         display: none;
     }
 
