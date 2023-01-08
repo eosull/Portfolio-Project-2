@@ -6,15 +6,19 @@
 
 ## Site Info
 
-This website is designed present information about the 2022 World Cup in Qatar in a clear way and allow a user to interact with data from the competition.
+This website is designed to present information about the 2022 World Cup in Qatar in a clear way that allows users to interact with data from the competition. It is aimed towards all fans, but will be especially enjoyable for people who enjoy digging deeper into sport and want to learn about how players performed during the competition.
 
-Data analysis in sport has been used historically to help gain insights into performance that allow athletes and coaches to make improvements that affect results. This is also crossing over to the fans, who are presented data during live events and in post-event analysis. The data presented is used by fans as a conversation starter or a debate point, comparing one team or player with another. The goal of this site is to provide some of these talking points and highlight data that enhances the narrative that builds around events like the World Cup.
+## Site Goals
 
-There are three main stats presented (goals,assists,clean sheets) which are seen as indications of a players effectivness in their position. These are presented in a table which allows comparison between players and to highlight the difference in performances. Alongside this there is an option for the user to generate a commonly used statistic such as goals per game or clean sheet percentage, which gives an indication of the average performance of a player on a game-by-game basis. At the bottom of the site is a flip card which displays the player of the tournament.
+- This site has 3 main goals:
+  - __User can easily understand data presented__
+  - __User can efficiently navigate site and explore different sections__
+  - __User can intuitively interact with elements on site that present further data__
 
 ## Features
 
 ### Existing Features
+
 - Highlights Section
   - This section gives some highlighted statistics from the World Cup. It also contains links that the user can use to navigate to individual sections.
 
@@ -59,15 +63,31 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 ![Home and Refresh Screenshot](/assets/readme-images/home-refresh-screenshot.png)
 
 ### Features for Future Implementation
+
 - Data sources
   - One idea for future implementation would be to source data from external sources, such as an API or an .xml file.
   - On this site all data is stored in tables on the index.html page which is not an efficient solution for larger data samples.
+- Definitions & Further Info
+  - In order to enhance the user experience it would be useful to provide definitions for statistics or further info on players using hover info boxes.
 
 ## Testing
 
 ### Goal Testing
 
+- __Users can easily understand data presented:__
+  - An overview of statistics from the tournament are presented first before displaying further detail
+  - Table elements are used to clearly compare players against one another
+  - Calculated statistics are provided in a statement to show usage
+- __User can easily navigate site and explore different sections:__
+  - The site contains links to individual statistic sections in the overview section
+  - A home button is always present allowing user to return to top of page whenever they wish
+  - A refresh button is also included to allow users to refresh the page and get rid of content they may have generated
+- __User can intuitively interact with elements on site that present further data:__
+  - All interactive elements are clearly labelled with their function
+  - Buttons and links are responsive so user knows they are able to interact
+
 ### Functionality Testing
+
 - Chrome Developer tools and Mozilla Firefox Web Developer Tools were used throughout the development of the site to test functionality, diagnose and solve issues with responsivness and assist with styling work. The console on developer tools was used to test and debug Javascript code during development of the site.
 - The site was tested on Chrome, Safari & Firefox using a Macbook pro and Safari & Google Chrome using an Iphone 8.
 
@@ -95,7 +115,10 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 
 ### Issues faced during development
 
+- One issue faced during development was a bug that caused the flip functions not to work on Safari browser where both sides of the flip element would show at once. This was due to 'backface-visibility' not being supported on some older versions of Safari. This was resolved by adding '-webkit-backface-visibility' to CSS code.
+
 ### Validator Testing
+
 - HTML
   - No errors were detected when passing site through the [W3C Markup Validation Service](https://validator.w3.org/nu/?doc=https%3A%2F%2Feosull.github.io%2FPortfolio-Project-2%2F)
 - CSS
@@ -103,17 +126,16 @@ There are three main stats presented (goals,assists,clean sheets) which are seen
 - Javascript
   - No errors were detected when JS code was validated using [JSHint](https://jshint.com/)
 
-### Unfixed Bugs
-
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   - In the Github repository, navigate to the Settings tab
   - From the source section drop-down menu, select the master branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
-- A live link for the site can be found here: [INSERT LIVE LINK]
+- A live link for the site can be found here: [World Cup Stats Live Link](https://eosull.github.io/Portfolio-Project-2/)
 
 ## Credits
+
 - All of the statistics for this site were sourced from [fbref](https://fbref.com/en/comps/1/World-Cup-Stats) 
 - The image used on this site was sourced from [People Magazine](https://people.com/thmb/E2kiLjE9bmFgnx9TiMYhq-OVOuQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x438:1001x440):format(webp)/lionel-messi-most-liked-instagram-picute-122222-2e46f8ce2f8444948fce28f2c84c72f2.jpg)
 - The football favicon was sourced from [favicon.io](https://favicon.io/emoji-favicons/soccer-ball)
