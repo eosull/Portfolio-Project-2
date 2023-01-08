@@ -54,6 +54,10 @@ header {
     text-align: center;
 }
 
+header h2{
+    color: white;
+}
+
 h1,
 h2 {
     font-family: 'Numans', sans-serif;
@@ -66,7 +70,7 @@ h1 {
 }
 
 h2{
-    text-shadow: 2px 1px 6px black;
+    color: #1f2734c3;
 }
 
 h1 i {
