@@ -15,16 +15,19 @@
 </head>
 
 <body>
+  <!-- Site header -->
   <header id="home">
     <h1>2<i class="fa-solid fa-futbol"></i>22 World Cup</h1>
     <h2>Explore statistics from the Qatar World Cup and gain insights on player performance!</h2>
   </header>
 
+  <!-- Home and Refresh icons -->
   <div id="logos">
     <a href="#home" class="nav-link"><i class="fa-solid fa-house"></i> Home</a><br><br>
     <a href="index.html" class="nav-link"><i class="fa-solid fa-arrows-rotate"></i> Refresh</a>
   </div>
 
+  <!-- Highlights section - contains 2 divs with 2 info boxes in each div -->
   <section class="stats" id="section1">
     <div class="highlight-box">
       <div class="list-box">
@@ -62,7 +65,6 @@
         <h3>Go to <a href="#assists">Assists</a> section</h3>
       </div>
 
-
       <div class="list-box">
         <h2>Player Awards</h2>
         <h3>Golden Boot:</h3>
@@ -76,10 +78,13 @@
     </div>
   </section>
 
+  <!-- Statistics section. There are 3 of these with similar format on site.
+Each contains 2 divs; one containing a table with statistics and one 
+with an interactive 'calculate' section. This one is focused on goals. -->
   <section class="stats">
-
     <div class="table-section" id="goalscorers">
       <h2>Goals:</h2>
+      <!-- Table with goalscorer info - this is where the data for 'calculate' sections is sourced -->
       <table>
         <tr>
           <th>Player</th>
@@ -124,9 +129,13 @@
           <td class="country-column" id="country5">Netherlands</td>
         </tr>
       </table>
+      <!-- Button to call a JS function that adds another column to the table -->
       <button onclick="showCountry(0)"><i class="fa-solid fa-arrows-left-right expand"></i><br>Expand</button>
     </div>
 
+    <!-- User clicks a button and a JS function is called.
+    The function is sent a number that is corresponding to a player.
+    This then returns a statement that is displayed in the p element. -->
     <div class="calculate">
       <h2>Calculate Goals Per Game:</h2>
       <div class="button-bank">
@@ -141,6 +150,7 @@
     </div>
   </section>
 
+  <!-- This section deals with player assists and functions the same as the goals section above. -->
   <section class="stats">
     <div class="calculate">
       <h2>Calculate Assists Per Game:</h2>
@@ -201,12 +211,13 @@
           <td class="country-column" id="country11">Netherlands</td>
         </tr>
       </table>
-      <button id="table-1-button" onclick="showCountry(1)"><i class="fa-solid fa-arrows-left-right expand"></i><br>Expand</button>
+      <button id="table-1-button" onclick="showCountry(1)"><i
+          class="fa-solid fa-arrows-left-right expand"></i><br>Expand</button>
     </div>
   </section>
 
+  <!-- This section deals with goalkeeper clean sheets and functions the same as the goals & assists section above. -->
   <section class="stats">
-
     <div class="table-section" id="defence">
       <h2>Clean Sheets:</h2>
       <table>
@@ -253,8 +264,10 @@
           <td class="country-column" id="country17">Netherlands</td>
         </tr>
       </table>
-      <button id="table-0-button" onclick="showCountry(2)"><i class="fa-solid fa-arrows-left-right expand"></i><br>Expand</button>
+      <button id="table-0-button" onclick="showCountry(2)"><i
+          class="fa-solid fa-arrows-left-right expand"></i><br>Expand</button>
     </div>
+
     <div class="calculate">
       <h2>Calculate Clean Sheet Percentage:</h2>
       <div class="button-bank">
@@ -269,16 +282,26 @@
     </div>
   </section>
 
+  <!-- This section is a flip card that displays info on the player of the tournament.
+  The flip is completed by calling a JS function using a button.
+  On the back there is a player image and player information. -->
   <section class="award" id="awards">
+    <!-- Award container div holds 1 inner div -->
     <div class="award-container">
+      <!-- Award card div contains front and back div -->
       <div class="award-card" id="card">
+        <!-- Front of card -->
         <div class="award-front">
           <h3 class="card-title">Player of the Tounament</h3>
           <button onclick="flipAward()">Click to Reveal!</button>
         </div>
+
+        <!-- Back of card. This contains another flip effect, this time for an image.
+        It is structured the same as above but flips over when mouse hovers over and
+        flips back when mouse leaves. -->
         <div class="award-back">
           <h3 class='card-title' id="award-winner-name">Lionel Messi</h3>
-          <div class="award-image-container"  onmouseenter="flipImage()" onmouseleave="flipImage()">
+          <div class="award-image-container" onmouseenter="flipImage()" onmouseleave="flipImage()">
             <div class="award-image-inner" id="image">
               <div class="award-image-front">
                 <img src="./assets/images/lionel-messi.jpeg" alt="Lionel Messi Lifting the World Cup trophy">
@@ -306,6 +329,7 @@
     </div>
   </section>
 
+  <!-- Footer containing reference for statistics -->
   <footer>
     <p>All statistics on this site are sourced from <a href="https://fbref.com/en/comps/1/World-Cup-Stats"
         target="_blank">fbref</a>.</p>
