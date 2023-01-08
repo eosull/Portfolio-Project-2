@@ -140,7 +140,7 @@ button {
     margin: 15px;
     width: 40%;
 
-    background-color: #7c5a53a6;
+    background-color: #a5786da6;
     color: white;
     border: none;
     border-radius: 5px;
@@ -169,7 +169,7 @@ button:hover {
 }
 
 table {
-    background-color: #7c5a53a6;
+    background-color: #a5786da6;
     width: 75%;
     margin-left: auto;
     margin-right: auto;
@@ -192,7 +192,7 @@ tr:nth-child(even) {
     width: 30px;
     padding: 10px;
     transition: all 0.2s;
-    background-color: #8e675ea6;
+    background-color: #a5786da6;
     color: white;
     border: none;
     border-radius: 5px;
