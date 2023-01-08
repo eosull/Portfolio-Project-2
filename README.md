@@ -8,6 +8,8 @@
 
 This website is designed to present information about the 2022 World Cup in Qatar in a clear way that allows users to interact with data from the competition. It is aimed towards all fans, but will be especially enjoyable for people who enjoy digging deeper into sport and want to learn about how players performed during the competition.
 
+[Live Link for Site](https://eosull.github.io/Portfolio-Project-2/)
+
 ## Site Goals
 
 - This site has 3 main goals:
