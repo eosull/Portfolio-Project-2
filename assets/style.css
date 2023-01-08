@@ -200,6 +200,10 @@ tr:nth-child(even) {
     transition: all 0.2s;
 }
 
+.expand-text{
+    color: #1f2734c3;
+}
+
 .table-section p{
     margin-left: auto;
     margin-right: auto;
