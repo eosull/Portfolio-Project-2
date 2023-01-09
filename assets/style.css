@@ -433,6 +433,10 @@ footer {
         font-size: 600%;
     }
 
+    #logos {
+        top: 90%;
+    }
+
     .stats {
         flex-direction: column;
         border-top: 100px;
@@ -508,7 +512,7 @@ footer {
 /* Media queries for smallest screen compatibility */
 @media screen and (max-width:550px) {
     #logos {
-        top: 75%;
+        top: 85%;
     }
 
     .nav-link i {
